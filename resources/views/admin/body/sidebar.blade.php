@@ -8,37 +8,8 @@
         <div class="side-nav">
             <div class="main-menu">
                 <ul class="metismenu" id="menu">
-                    <li class="Ul_li--hover"><a class="has-arrow" href="#"><i class="i-Bar-Chart text-20 mr-2 text-muted"></i><span class="item-name text-15 text-muted">Dashboard</span></a>
-                        <ul class="mm-collapse">
-                            <li class="item-name"><a href="dashboard1.html"><i class="i-Circular-Point mr-2 text-muted"></i><span class="text-muted">Version 1</span></a></li>
-                            <li class="item-name"><a href="dashboard2.html"><i class="i-Circular-Point mr-2 text-muted"></i><span class="text-muted">Version 2 </span></a></li>
-                            <li class="item-name"><a href="dashboard3.html"><i class="i-Circular-Point mr-2 text-muted"></i><span class="text-muted">Version 3</span></a></li>
-                            <li class="item-name"><a href="dashboard4.html"><i class="i-Circular-Point mr-2 text-muted"></i><span class="text-muted">Version 4</span></a></li>
-                        </ul>
-                    </li>
-                    <li class="Ul_li--hover"><a class="has-arrow" href="#"><i class="i-Library text-20 mr-2 text-muted"></i><span class="item-name text-15 text-muted">UI Kits</span></a>
-                        <ul class="mm-collapse">
-                            <li class="item-name"><a href="alerts.html"><i class="nav-icon i-Bell1"></i><span class="item-name">Alerts</span></a></li>
-                            <li class="item-name"></li>
-                            <li class="nav-item"><a href="dropdown.html"><i class="nav-icon i-Bell1"></i><span class="item-name">Dropdown</span></a></li>
-                            <li class="item-name"><a href="buttons.html"><i class="nav-icon i-Cursor-Click"></i><span class="item-name">Buttons</span></a></li>
-                            <li class="item-name"><a href="bootstrap-tab.html"><i class="nav-icon i-Cursor-Click"></i><span class="item-name">Bootstrap tab</span></a></li>
-                            <li class="item-name"><a href="cards.html"><i class="nav-icon i-Line-Chart-2"></i><span class="item-name">Cards</span></a></li>
-                            <li class="item-name"><a href="card.metrics.html"><i class="nav-icon i-ID-Card"></i><span class="item-name">Card Metrics</span></a></li>
-                            <li class="item-name"><a href="carousel.html"><i class="nav-icon i-Video-Photographer"></i><span class="item-name">Carousels</span></a></li>
-                            <li class="item-name"><a href="collapsible.html"><i class="nav-icon i-Video-Photographer"></i><span class="item-name">Collapsibles</span></a></li>
-                            <li class="item-name"><a href="lists.html"><i class="nav-icon i-Belt-3"></i><span class="item-name">Lists</span></a></li>
-                            <li class="item-name"><a href="pagination.html"><i class="nav-icon i-Arrow-Next"></i><span class="item-name">Paginations</span></a></li>
-                            <li class="item-name"><a href="popover.html"><i class="nav-icon i-Speach-Bubble-2"></i><span class="item-name">Popover</span></a></li>
-                            <li class="item-name"><a href="progressbar.html"><i class="nav-icon i-Loading"></i><span class="item-name">Progressbar</span></a></li>
-                            <li class="item-name"><a href="tables.html"><i class="nav-icon i-File-Horizontal-Text"></i><span class="item-name">Tables</span></a></li>
-                            <li class="item-name"><a href="tabs.html"><i class="nav-icon i-New-Tab"></i><span class="item-name">Tabs</span></a></li>
-                            <li class="item-name"><a href="tooltip.html"><i class="nav-icon i-Speach-Bubble-8"></i><span class="item-name">Tooltip</span></a></li>
-                            <li class="item-name"><a href="typography.html"><i class="nav-icon i-Letter-Open"></i><span class="item-name">Typography</span></a></li>
-                            <li class="item-name"><a href="modals.html"><i class="nav-icon i-Duplicate-Window"></i><span class="item-name">Modals</span></a></li>
-                            <li class="item-name"><a href="nouislider.html"><i class="nav-icon i-Width-Window"></i><span class="item-name">Sliders</span></a></li>
-                        </ul>
-                    </li>
+                    <li class="Ul_li--hover"><a class="" href="#"><i class="i-Bar-Chart text-20 mr-2 text-muted"></i><span class="item-name text-15 text-muted">Dashboard</span></a></li>
+                    <li class="Ul_li--hover"><a class="" href="#"><i class="i-Library text-20 mr-2 text-muted"></i><span class="item-name text-15 text-muted">Gust Lists</span></a></li>
                     <li class="Ul_li--hover"><a class="has-arrow" href="#"><i class="i-Suitcase text-20 mr-2 text-muted"></i><span class="item-name text-15 text-muted">Extra Kits</span></a>
                         <ul class="mm-collapse">
                             <li class="item-name"><a href="image.cropper.html"><i class="nav-icon i-Crop-2"></i><span class="item-name">Image Cropper</span></a></li>
