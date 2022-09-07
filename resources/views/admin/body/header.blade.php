@@ -13,7 +13,7 @@
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <div class="menu-icon-grid">
                     
-                    <a href="{{ route('logout') }}"><i class="i-Shop-4"></i> Home</a>
+                    <a href="{{ route('user.logout')}}"><i class="i-Shop-4"></i> Logout</a>
                     <a href="#">
                         <i class="i-Library"></i> UI Kits</a>
                         <a href="#"><i class="i-Drop"></i> Apps</a>

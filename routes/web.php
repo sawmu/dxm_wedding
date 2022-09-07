@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\SignoutController;
 use Illuminate\Support\Facades\DB;
 
 /*
@@ -29,6 +29,8 @@ Route::middleware([
         return view('admin.index');
     })->name('dashboard');
 });
+
+Route::get('/user/logout',[SignoutController::class, 'Logout'])->name('user.logout');
 
 Route::get('/clear', function() {
 
