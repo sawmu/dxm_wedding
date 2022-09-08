@@ -257,8 +257,8 @@
                                     <div class="shape-2"><img src="{{asset('frontend/assets/images/team/shape2.jpg')}}" alt="E&M"></div>
                                 </div>
                                 <div class="wpo-team-text">
-                                    <h3><a href="groom-bride.html">Windy</a></h3>
-                                    <span>Brides Sister</span>
+                                    <h3><a href="groom-bride.html">Wendy</a></h3>
+                                    <span>Bride's Sister</span>
                                 </div>
                             </div>
                         </div>
@@ -288,7 +288,7 @@
                                 </div>
                                 <div class="wpo-team-text">
                                     <h3><a href="groom-bride.html">Serena</a></h3>
-                                    <span>Brides Friend</span>
+                                    <span>Bride's Best Friend</span>
                                 </div>
                             </div>
                         </div>
