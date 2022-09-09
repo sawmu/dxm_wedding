@@ -235,7 +235,7 @@
         <!-- end wpo-cta-section -->
 
         <!-- start wpo-team-section -->
-        <section class="wpo-team-section">
+        <section class="wpo-team-section section-padding">
             <div class="container">
                 <div class="row">
                     <div class="wpo-section-title">
@@ -247,11 +247,11 @@
                 </div>
                 <div class="wpo-team-wrap">
                     <div class="row">
-                        <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="col-sm-6 col-lg-3">
                             <div class="wpo-team-item">
                                 <div class="wpo-team-img">
                                     <div class="wpo-team-img-inner">
-                                        <img src="{{asset('frontend/profile/tete.png')}}" alt="E&M">
+                                        <img src="{{asset('frontend/profile/wendy_pro.png')}}" alt="E&M">
                                     </div>
                                     <div class="shape-1"><img src="{{asset('frontend/assets/images/team/shape1.jpg')}}" alt="E&M"></div>
                                     <div class="shape-2"><img src="{{asset('frontend/assets/images/team/shape2.jpg')}}" alt="E&M"></div>
@@ -262,22 +262,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
-                            <div class="wpo-team-item">
-                                <div class="wpo-team-img">
-                                    <div class="wpo-team-img-inner">
-                                        <img src="{{asset('frontend/profile/hay.png')}}" alt="E&M">
-                                    </div>
-                                    <div class="shape-1"><img src="{{asset('frontend/assets/images/team/shape1.jpg')}}" alt="E&M"></div>
-                                    <div class="shape-2"><img src="{{asset('frontend/assets/images/team/shape2.jpg')}}" alt="E&M"></div>
-                                </div>
-                                <div class="wpo-team-text">
-                                    <h3><a href="groom-bride.html">Hay Nerta Aye</a></h3>
-                                    <span>Groom's Brother</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="col-sm-6 col-lg-3">
                             <div class="wpo-team-item">
                                 <div class="wpo-team-img">
                                     <div class="wpo-team-img-inner">
@@ -288,11 +273,26 @@
                                 </div>
                                 <div class="wpo-team-text">
                                     <h3><a href="groom-bride.html">Serena</a></h3>
-                                    <span>Bride's Best Friend</span>
+                                    <span>Bride's Maid</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="wpo-team-item">
+                                <div class="wpo-team-img">
+                                    <div class="wpo-team-img-inner">
+                                        <img src="{{asset('frontend/profile/em.jpg')}}" alt="E&M">
+                                    </div>
+                                    <div class="shape-1"><img src="{{asset('frontend/assets/images/team/shape1.jpg')}}" alt="E&M"></div>
+                                    <div class="shape-2"><img src="{{asset('frontend/assets/images/team/shape2.jpg')}}" alt="E&M"></div>
+                                </div>
+                                <div class="wpo-team-text">
+                                    <h3><a href="groom-bride.html">Emerald</a></h3>
+                                    <span>Bride's Maid</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
                             <div class="wpo-team-item">
                                 <div class="wpo-team-img">
                                     <div class="wpo-team-img-inner">
@@ -302,12 +302,12 @@
                                     <div class="shape-2"><img src="{{asset('frontend/assets/images/team/shape2.jpg')}}" alt="E&M"></div>
                                 </div>
                                 <div class="wpo-team-text">
-                                    <h3><a href="groom-bride.html">Jerome Bell</a></h3>
-                                    <span>Groom’s Sister</span>
+                                    <h3><a href="groom-bride.html">Say Say</a></h3>
+                                    <span>Bride's Best Friend</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="col-sm-6 col-lg-3">
                             <div class="wpo-team-item">
                                 <div class="wpo-team-img">
                                     <div class="wpo-team-img-inner">
@@ -317,12 +317,12 @@
                                     <div class="shape-2"><img src="{{asset('frontend/assets/images/team/shape2.jpg')}}" alt="E&M"></div>
                                 </div>
                                 <div class="wpo-team-text">
-                                    <h3><a href="groom-bride.html">Esther Howard</a></h3>
-                                    <span>Groom’s Brother</span>
+                                    <h3><a href="groom-bride.html">Hay Nerta Aye</a></h3>
+                                    <span>Groom's Brother</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="col-sm-6 col-lg-3">
                             <div class="wpo-team-item">
                                 <div class="wpo-team-img">
                                     <div class="wpo-team-img-inner">
@@ -332,8 +332,38 @@
                                     <div class="shape-2"><img src="{{asset('frontend/assets/images/team/shape2.jpg')}}" alt="E&M"></div>
                                 </div>
                                 <div class="wpo-team-text">
-                                    <h3><a href="groom-bride.html">Bessie Cooper</a></h3>
-                                    <span>Brides Maid</span>
+                                    <h3><a href="groom-bride.html">Stephen</a></h3>
+                                    <span>Groom's Maid</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="wpo-team-item">
+                                <div class="wpo-team-img">
+                                    <div class="wpo-team-img-inner">
+                                        <img src="{{asset('frontend/assets/images/team/img-6.jpg')}}" alt="E&M">
+                                    </div>
+                                    <div class="shape-1"><img src="{{asset('frontend/assets/images/team/shape1.jpg')}}" alt="E&M"></div>
+                                    <div class="shape-2"><img src="{{asset('frontend/assets/images/team/shape2.jpg')}}" alt="E&M"></div>
+                                </div>
+                                <div class="wpo-team-text">
+                                    <h3><a href="groom-bride.html">Erik</a></h3>
+                                    <span>Groom's Maid</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="wpo-team-item">
+                                <div class="wpo-team-img">
+                                    <div class="wpo-team-img-inner">
+                                        <img src="{{asset('frontend/assets/images/team/img-6.jpg')}}" alt="E&M">
+                                    </div>
+                                    <div class="shape-1"><img src="{{asset('frontend/assets/images/team/shape1.jpg')}}" alt="E&M"></div>
+                                    <div class="shape-2"><img src="{{asset('frontend/assets/images/team/shape2.jpg')}}" alt="E&M"></div>
+                                </div>
+                                <div class="wpo-team-text">
+                                    <h3><a href="groom-bride.html">Sa Htoo</a></h3>
+                                    <span>Groom's Maid</span>
                                 </div>
                             </div>
                         </div>
@@ -345,7 +375,7 @@
         <!-- end wpo-team-section -->
 
         <!-- start wpo-portfolio-section -->
-        <section class="wpo-portfolio-section section-padding" id="gallery">
+        <section class="wpo-portfolio-section" id="gallery">
             <div class="container">
                 <div class="row">
                     <div class="wpo-section-title">
@@ -587,7 +617,7 @@
         </section>
         <!-- end wpo-event-section -->
         <!-- start wpo-partners-section -->
-        <section class="footer-padding wpo-partners-section">
+        {{-- <section class="footer-padding wpo-partners-section section-padding">
             <h2 class="hidden">Partners</h2>
             <div class="container">
                 <div class="row">
@@ -614,7 +644,7 @@
             </div> <!-- end container -->
         </section>
 
-        <div class="footer-padding"></div>
+        <div class="footer-padding"></div> --}}
         <!-- end wpo-partners-section-->
         <!-- start wpo-blog-section -->
         {{-- <section class="wpo-blog-section section-padding" id="blog">
