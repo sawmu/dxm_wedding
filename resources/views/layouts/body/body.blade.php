@@ -106,16 +106,17 @@
             </div>
         </section>
         <!-- end couple-section -->
+
         <!-- start wpo-video-section -->
-        <section class="wpo-video-section">
+        {{-- <section class="wpo-video-section">
             <h2 class="hidden">some</h2>
-            <a href="https://www.youtube.com/embed/G-rzE-9zHj8" class="video-btn" data-type="iframe"><i
+            <a href="https://www.youtube.com/watch?v=Ctwjohruz6s&t=48s&ab_channel=DinaWanderlust" class="video-btn" data-type="iframe"><i
                     class="fi flaticon-play"></i></a>
-        </section>
+        </section> --}}
         <!-- end wpo-video-section-->
 
         <!-- start story-section -->
-        <section class="story-section section-padding" id="story">
+        <section class="story-section" id="story">
             <div class="container">
                 <div class="row">
                     <div class="wpo-section-title">
