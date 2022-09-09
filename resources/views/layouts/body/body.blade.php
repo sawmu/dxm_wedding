@@ -266,37 +266,7 @@
                             <div class="wpo-team-item">
                                 <div class="wpo-team-img">
                                     <div class="wpo-team-img-inner">
-                                        <img src="{{asset('frontend/profile/Serena.png')}}" alt="E&M">
-                                    </div>
-                                    <div class="shape-1"><img src="{{asset('frontend/assets/images/team/shape1.jpg')}}" alt="E&M"></div>
-                                    <div class="shape-2"><img src="{{asset('frontend/assets/images/team/shape2.jpg')}}" alt="E&M"></div>
-                                </div>
-                                <div class="wpo-team-text">
-                                    <h3><a href="groom-bride.html">Serena</a></h3>
-                                    <span>Bride's Maid</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="wpo-team-item">
-                                <div class="wpo-team-img">
-                                    <div class="wpo-team-img-inner">
-                                        <img src="{{asset('frontend/profile/em.jpg')}}" alt="E&M">
-                                    </div>
-                                    <div class="shape-1"><img src="{{asset('frontend/assets/images/team/shape1.jpg')}}" alt="E&M"></div>
-                                    <div class="shape-2"><img src="{{asset('frontend/assets/images/team/shape2.jpg')}}" alt="E&M"></div>
-                                </div>
-                                <div class="wpo-team-text">
-                                    <h3><a href="groom-bride.html">Emerald</a></h3>
-                                    <span>Bride's Maid</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="wpo-team-item">
-                                <div class="wpo-team-img">
-                                    <div class="wpo-team-img-inner">
-                                        <img src="{{asset('frontend/assets/images/team/img-4.jpg')}}" alt="E&M">
+                                        <img src="{{asset('frontend/profile/say.png')}}" alt="E&M">
                                     </div>
                                     <div class="shape-1"><img src="{{asset('frontend/assets/images/team/shape1.jpg')}}" alt="E&M"></div>
                                     <div class="shape-2"><img src="{{asset('frontend/assets/images/team/shape2.jpg')}}" alt="E&M"></div>
@@ -311,7 +281,38 @@
                             <div class="wpo-team-item">
                                 <div class="wpo-team-img">
                                     <div class="wpo-team-img-inner">
-                                        <img src="{{asset('frontend/assets/images/team/img-5.jpg')}}" alt="E&M">
+                                        <img src="{{asset('frontend/profile/Serena.png')}}" alt="E&M">
+                                    </div>
+                                    <div class="shape-1"><img src="{{asset('frontend/assets/images/team/shape1.jpg')}}" alt="E&M"></div>
+                                    <div class="shape-2"><img src="{{asset('frontend/assets/images/team/shape2.jpg')}}" alt="E&M"></div>
+                                </div>
+                                <div class="wpo-team-text">
+                                    <h3><a href="groom-bride.html">Serena</a></h3>
+                                    <span>Bridesmaid</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="wpo-team-item">
+                                <div class="wpo-team-img">
+                                    <div class="wpo-team-img-inner">
+                                        <img src="{{asset('frontend/profile/emr.png')}}" alt="E&M">
+                                    </div>
+                                    <div class="shape-1"><img src="{{asset('frontend/assets/images/team/shape1.jpg')}}" alt="E&M"></div>
+                                    <div class="shape-2"><img src="{{asset('frontend/assets/images/team/shape2.jpg')}}" alt="E&M"></div>
+                                </div>
+                                <div class="wpo-team-text">
+                                    <h3><a href="groom-bride.html">Emerald</a></h3>
+                                    <span>Bridesmaid</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="wpo-team-item">
+                                <div class="wpo-team-img">
+                                    <div class="wpo-team-img-inner">
+                                        <img src="{{asset('frontend/profile/hay.png')}}" alt="E&M">
                                     </div>
                                     <div class="shape-1"><img src="{{asset('frontend/assets/images/team/shape1.jpg')}}" alt="E&M"></div>
                                     <div class="shape-2"><img src="{{asset('frontend/assets/images/team/shape2.jpg')}}" alt="E&M"></div>
@@ -326,14 +327,14 @@
                             <div class="wpo-team-item">
                                 <div class="wpo-team-img">
                                     <div class="wpo-team-img-inner">
-                                        <img src="{{asset('frontend/assets/images/team/img-6.jpg')}}" alt="E&M">
+                                        <img src="{{asset('frontend/profile/st.png')}}" alt="E&M">
                                     </div>
                                     <div class="shape-1"><img src="{{asset('frontend/assets/images/team/shape1.jpg')}}" alt="E&M"></div>
                                     <div class="shape-2"><img src="{{asset('frontend/assets/images/team/shape2.jpg')}}" alt="E&M"></div>
                                 </div>
                                 <div class="wpo-team-text">
                                     <h3><a href="groom-bride.html">Stephen</a></h3>
-                                    <span>Groom's Maid</span>
+                                    <span>Best Man</span>
                                 </div>
                             </div>
                         </div>
@@ -341,14 +342,14 @@
                             <div class="wpo-team-item">
                                 <div class="wpo-team-img">
                                     <div class="wpo-team-img-inner">
-                                        <img src="{{asset('frontend/assets/images/team/img-6.jpg')}}" alt="E&M">
+                                        <img src="{{asset('frontend/profile/erik.png')}}" alt="E&M">
                                     </div>
                                     <div class="shape-1"><img src="{{asset('frontend/assets/images/team/shape1.jpg')}}" alt="E&M"></div>
                                     <div class="shape-2"><img src="{{asset('frontend/assets/images/team/shape2.jpg')}}" alt="E&M"></div>
                                 </div>
                                 <div class="wpo-team-text">
                                     <h3><a href="groom-bride.html">Erik</a></h3>
-                                    <span>Groom's Maid</span>
+                                    <span>Best Man</span>
                                 </div>
                             </div>
                         </div>
@@ -356,14 +357,14 @@
                             <div class="wpo-team-item">
                                 <div class="wpo-team-img">
                                     <div class="wpo-team-img-inner">
-                                        <img src="{{asset('frontend/assets/images/team/img-6.jpg')}}" alt="E&M">
+                                        <img src="{{asset('frontend/profile/sa.png')}}" alt="E&M">
                                     </div>
                                     <div class="shape-1"><img src="{{asset('frontend/assets/images/team/shape1.jpg')}}" alt="E&M"></div>
                                     <div class="shape-2"><img src="{{asset('frontend/assets/images/team/shape2.jpg')}}" alt="E&M"></div>
                                 </div>
                                 <div class="wpo-team-text">
                                     <h3><a href="groom-bride.html">Sa Htoo</a></h3>
-                                    <span>Groom's Maid</span>
+                                    <span>Best Man</span>
                                 </div>
                             </div>
                         </div>
