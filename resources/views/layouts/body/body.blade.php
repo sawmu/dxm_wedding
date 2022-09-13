@@ -46,7 +46,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-lg-4">
                                         <div class="couple-img">
-                                            <img src="{{asset('frontend/assets/images/couple/2.jpg')}}" alt="E&M">
+                                            <img src="{{asset('frontend/our_story/barbie.png')}}" alt="E&M">
                                         </div>
                                     </div>
                                     <div class="col-lg-7">
@@ -89,7 +89,7 @@
                                     </div>
                                     <div class="col-lg-4 order-lg-2 order-1">
                                         <div class="couple-img">
-                                            <img src="{{asset('frontend/assets/images/couple/3.jpg')}}" alt="E&M">
+                                            <img src="{{asset('frontend/our_story/saw.png')}}" alt="E&M">
                                         </div>
                                     </div>
                                 </div>
@@ -116,7 +116,7 @@
         <!-- end wpo-video-section-->
 
         <!-- start story-section -->
-        <section class="story-section" id="story">
+        <section class="story-section section-padding" id="story">
             <div class="container">
                 <div class="row">
                     <div class="wpo-section-title">
@@ -140,13 +140,13 @@
                                 <div class="row align-items-center">
                                     <div class="col col-lg-6 col-12">
                                         <div class="img-holder right-align-text wow fadeInLeftSlow" data-wow-duration="1500ms">
-                                            <img src="{{asset('frontend/assets/images/story/1.jpg')}}" alt class="img img-responsive">
+                                            <img src="{{asset('frontend/our_story/first.jpg')}}" alt class="img img-responsive">
                                         </div>
                                     </div>
                                     <div class="col col-lg-6 col-12">
                                         <div class="story-text left-align-text wow fadeInRightSlow" data-wow-duration="2000ms">
                                             <h3>First Time We Meet</h3>
-                                            <span class="date">19 Jan 2018</span>
+                                            <span class="date">19 Jan 2015</span>
                                             <div class="line-shape">
                                                 <div class="outer-ball">
                                                     <div class="inner-ball"></div>
@@ -162,7 +162,7 @@
                                     <div class="col col-lg-6 col-12 order-lg-1 order-2 text-holder left-text">
                                         <div class="story-text right-align-text wow fadeInLeftSlow" data-wow-duration="2000ms">
                                             <h3>Our First Date</h3>
-                                            <span class="date">22 May 2021</span>
+                                            <span class="date">7 October 2017</span>
                                             <div class="line-shape s2">
                                                 <div class="outer-ball">
                                                     <div class="inner-ball"></div>
@@ -173,7 +173,7 @@
                                     </div>
                                     <div class="col col-lg-6 col-12 order-lg-2 order-1">
                                         <div class="img-holder left-align-text">
-                                            <img src="{{asset('frontend/assets/images/story/2.jpg')}}" alt class="img img-responsive wow fadeInRightSlow" data-wow-duration="1500ms">
+                                            <img src="{{asset('frontend/our_story/date.png')}}" alt class="img img-responsive wow fadeInRightSlow" data-wow-duration="1500ms">
                                             <span class="heart">
                                                 <i class="fi flaticon-dance"></i>
                                             </span>
@@ -185,7 +185,7 @@
                                 <div class="row align-items-center">
                                     <div class="col col-lg-6 col-12">
                                         <div class="img-holder right-align-text left-site right-heart">
-                                            <img src="{{asset('frontend/assets/images/story/3.jpg')}}" alt class="img img-responsive wow fadeInLeftSlow" data-wow-duration="1500ms">
+                                            <img src="{{asset('frontend/our_story/prop.jpg')}}" alt class="img img-responsive wow fadeInLeftSlow" data-wow-duration="1500ms">
                                             <span class="heart">
                                                 <i class="fi flaticon-dove"></i>
                                             </span>
@@ -194,7 +194,7 @@
                                     <div class="col col-lg-6 col-12">
                                         <div class="story-text left-align-text wow fadeInRightSlow" data-wow-duration="2000ms">
                                             <h3>She Said Yes!</h3>
-                                            <span class="date">15 June 2022</span>
+                                            <span class="date">12 September 2021</span>
                                             <div class="line-shape">
                                                 <div class="outer-ball">
                                                     <div class="inner-ball"></div>
@@ -224,14 +224,14 @@
 
         <!-- start wpo-cta-section -->
 
-        <div class="wpo-cta-section">
+        {{-- <div class="wpo-cta-section">
             <div class="conatiner-fluid">
                 <div class="wpo-cta-item">
                     <h2>Lets Celebrate Your Love</h2>
                     <a class="theme-btn-s2" href="rsvp.html">Join With Us</a>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         <!-- end wpo-cta-section -->
 
@@ -289,7 +289,7 @@
                                 </div>
                                 <div class="wpo-team-text">
                                     <h3><a href="groom-bride.html">Serena</a></h3>
-                                    <span>Bridesmaid</span>
+                                    <span>Bride's Bestie</span>
                                 </div>
                             </div>
                         </div>
@@ -304,7 +304,7 @@
                                 </div>
                                 <div class="wpo-team-text">
                                     <h3><a href="groom-bride.html">Emerald</a></h3>
-                                    <span>Bridesmaid</span>
+                                    <span>Bride's Bestie</span>
                                 </div>
                             </div>
                         </div>
@@ -394,9 +394,9 @@
                             <div class="portfolio-grids gallery-container clearfix">
                                 <div class="grid">
                                     <div class="img-holder">
-                                        <a href="{{asset('frontend/assets/images/portfolio/1.jpg')}}" class="fancybox"
+                                        <a href="{{asset('frontend/moment/p-1.png')}}" class="fancybox"
                                             data-fancybox-group="gall-1">
-                                            <img src="{{asset('frontend/assets/images/portfolio/1.jpg')}}" alt class="img img-responsive">
+                                            <img src="{{asset('frontend/moment/p-1.png')}}" alt class="img img-responsive">
                                             <div class="hover-content">
                                                 <i class="ti-plus"></i>
                                             </div>
@@ -405,9 +405,9 @@
                                 </div>
                                 <div class="grid">
                                     <div class="img-holder">
-                                        <a href="{{asset('frontend/assets/images/portfolio/2.jpg')}}" class="fancybox"
+                                         <a href="{{asset('frontend/moment/p-2.png')}}" class="fancybox"
                                             data-fancybox-group="gall-1">
-                                            <img src="{{asset('frontend/assets/images/portfolio/2.jpg')}}" alt class="img img-responsive">
+                                            <img src="{{asset('frontend/moment/p-2.png')}}" alt class="img img-responsive">
                                             <div class="hover-content">
                                                 <i class="ti-plus"></i>
                                             </div>
@@ -416,9 +416,9 @@
                                 </div>
                                 <div class="grid">
                                     <div class="img-holder">
-                                        <a href="{{asset('frontend/assets/images/portfolio/3.jpg')}}" class="fancybox"
+                                        <a href="{{asset('frontend/moment/p-3.png')}}" class="fancybox"
                                             data-fancybox-group="gall-1">
-                                            <img src="{{asset('frontend/assets/images/portfolio/3.jpg')}}" alt class="img img-responsive">
+                                            <img src="{{asset('frontend/moment/p-3.png')}}" alt class="img img-responsive">
                                             <div class="hover-content">
                                                 <i class="ti-plus"></i>
                                             </div>
@@ -427,9 +427,9 @@
                                 </div>
                                 <div class="grid">
                                     <div class="img-holder">
-                                        <a href="{{asset('frontend/assets/images/portfolio/5.jpg')}}" class="fancybox"
+                                        <a href="{{asset('frontend/moment/p-5.png')}}" class="fancybox"
                                             data-fancybox-group="gall-1">
-                                            <img src="{{asset('frontend/assets/images/portfolio/5.jpg')}}" alt class="img img-responsive">
+                                            <img src="{{asset('frontend/moment/p-5.png')}}" alt class="img img-responsive">
                                             <div class="hover-content">
                                                 <i class="ti-plus"></i>
                                             </div>
@@ -438,24 +438,24 @@
                                 </div>
                                 <div class="grid">
                                     <div class="img-holder">
-                                        <a href="{{asset('frontend/assets/images/portfolio/4.jpg')}}" class="fancybox"
-                                            data-fancybox-group="gall-1">
-                                            <img src="{{asset('frontend/assets/images/portfolio/4.jpg')}}" alt class="img img-responsive">
-                                            <div class="hover-content">
-                                                <i class="ti-plus"></i>
-                                            </div>
-                                        </a>
+                                        <a href="{{asset('frontend/moment/p-4.png')}}" class="fancybox"
+                                        data-fancybox-group="gall-1">
+                                        <img src="{{asset('frontend/moment/p-4.png')}}" alt class="img img-responsive">
+                                        <div class="hover-content">
+                                            <i class="ti-plus"></i>
+                                        </div>
+                                    </a>
                                     </div>
                                 </div>
                                 <div class="grid">
                                     <div class="img-holder">
-                                        <a href="{{asset('frontend/assets/images/portfolio/6.jpg')}}" class="fancybox"
-                                            data-fancybox-group="gall-1">
-                                            <img src="{{asset('frontend/assets/images/portfolio/6.jpg')}}" alt class="img img-responsive">
-                                            <div class="hover-content">
-                                                <i class="ti-plus"></i>
-                                            </div>
-                                        </a>
+                                        <a href="{{asset('frontend/moment/p-6.png')}}" class="fancybox"
+                                        data-fancybox-group="gall-1">
+                                        <img src="{{asset('frontend/moment/p-6.png')}}" alt class="img img-responsive">
+                                        <div class="hover-content">
+                                            <i class="ti-plus"></i>
+                                        </div>
+                                    </a>
                                     </div>
                                 </div>
                             </div>
@@ -568,13 +568,14 @@
                                 <div class="wpo-event-text">
                                     <h2>The Reception</h2>
                                     <ul>
-                                        <li>Monday, 25 Sep, 2022 <br>
-                                            1:00 PM – 4:30 PM</li>
-                                        <li>Estern Star Plaza, Road 123, USA</li>
-                                        <li>+1 234-567-8910</li>
+                                        <li>Thursday, 22 Dec, 2022 <br>
+                                            6:00 PM – 7:00 PM</li>
+                                            
+                                        <li>30 Victoria St, Singapore 187996</li>
+                                        <li>CHIJMES</li>
 
                                         <li> <a class="popup-gmaps"
-                                                href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881">See
+                                                href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.228780686199!2d103.84689102671128!3d1.2899494849464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19a46f3cfc35%3A0x8043fede7e98b111!2sCHIJMES!5e0!3m2!1sen!2ssg!4v1662723739881!5m2!1sen!2ssg">See
                                                 Location</a></li>
                                     </ul>
                                 </div>
@@ -585,12 +586,14 @@
                                 <div class="wpo-event-text">
                                     <h2>The Ceremony</h2>
                                     <ul>
-                                        <li>Monday, 25 Sep, 2022 <br>
-                                            1:00 PM – 4:30 PM</li>
-                                        <li>Estern Star Plaza, Road 123, USA</li>
-                                        <li>+1 234-567-8910</li>
+                                        <li>Thursday, 22 Dec, 2022 <br>
+                                            7:00 PM – 9:00 PM</li>
+                                           
+                                        <li>30 Victoria St, Singapore 187996</li>
+                                        <li>CHIJMES</li>
+
                                         <li> <a class="popup-gmaps"
-                                                href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881">See
+                                                href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.228780686199!2d103.84689102671128!3d1.2899494849464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19a46f3cfc35%3A0x8043fede7e98b111!2sCHIJMES!5e0!3m2!1sen!2ssg!4v1662723739881!5m2!1sen!2ssg">See
                                                 Location</a></li>
                                     </ul>
                                 </div>
@@ -601,12 +604,14 @@
                                 <div class="wpo-event-text">
                                     <h2>Wedding Party</h2>
                                     <ul>
-                                        <li>Monday, 25 Sep, 2022 <br>
-                                            1:00 PM – 4:30 PM</li>
-                                        <li>Estern Star Plaza, Road 123, USA</li>
-                                        <li>+1 234-567-8910</li>
+                                        <li>Thursday, 22 Dec, 2022 <br>
+                                            9:00 PM – 11:00 PM</li>
+                                           
+                                        <li>30 Victoria St, Singapore 187996</li>
+                                        <li>CHIJMES</li>
+
                                         <li> <a class="popup-gmaps"
-                                                href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881">See
+                                                href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.228780686199!2d103.84689102671128!3d1.2899494849464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19a46f3cfc35%3A0x8043fede7e98b111!2sCHIJMES!5e0!3m2!1sen!2ssg!4v1662723739881!5m2!1sen!2ssg">See
                                                 Location</a></li>
                                     </ul>
                                 </div>
