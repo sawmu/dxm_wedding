@@ -1,118 +1,272 @@
 @extends('admin.admin_master')
 
 @section('admin')
-      <!-- MAIN SIDEBAR CONTAINER-->
-      <div class="inbox-main-sidebar-container" data-sidebar-container="main">
-        <div class="inbox-main-content" data-sidebar-content="main">
-            <!-- SECONDARY SIDEBAR CONTAINER-->
-            <div class="inbox-secondary-sidebar-container box-shadow-1" data-sidebar-container="secondary">
-                <div data-sidebar-content="secondary">
-                    <div class="inbox-secondary-sidebar-content position-relative" style="min-height: 500px">
-                        <div class="inbox-topbar box-shadow-1 perfect-scrollbar rtl-ps-none pl-3" data-suppress-scroll-y="true">
-                            <!-- <span class="d-sm-none">Test</span>--><a class="link-icon d-md-none" data-sidebar-toggle="main"><i class="icon-regular i-Arrow-Turn-Left"></i></a><a class="link-icon mr-3 d-md-none" data-sidebar-toggle="secondary"><i class="icon-regular mr-1 i-Left-3"></i> Inbox</a>
-                            <div class="d-flex"><a class="link-icon mr-3" href=""><i class="icon-regular i-Mail-Reply"></i> Reply</a><a class="link-icon mr-3" href=""><i class="icon-regular i-Mail-Reply-All"></i> Forward</a><a class="link-icon mr-3" href=""><i class="icon-regular i-Mail-Reply-All"></i> Delete</a></div>
-                        </div>
-                        <!-- EMAIL DETAILS-->
-                        <div class="inbox-details perfect-scrollbar rtl-ps-none" data-suppress-scroll-x="true">
-                            <div class="row no-gutters">
-                                <div class="mr-2" style="width: 36px"><img class="rounded-circle" src="../../dist-assets/images/faces/1.jpg" alt="" /></div>
-                                <div class="col-xs-12">
-                                    <p class="m-0">Jhon Doe</p>
-                                    <p class="text-12 text-muted">20 Dec, 2018</p>
-                                </div>
-                            </div>
-                            <h4 class="mb-3">Confirm your email</h4>
-                            <div>
-                                <p>Natus consequuntur perspiciatis esse beatae illo quos eaque.</p>
-                                <p>
-                                    Earum, quisquam, fugit? Numquam dolor magni nisi? Suscipit odit, ipsam iusto enim culpa, temporibus vero possimus error voluptates sequi. Iusto ipsam, nihil? Eveniet modi maxime animi excepturi a dignissimos doloribus,
-                                    inventore sed ratione, ducimus atque earum maiores tenetur officia commodi dicta tempora consequatur non nesciunt ipsam, consequuntur quia fuga aspernatur impedit et? Natus, earum.
-                                </p>
-                                <blockquote class="blockquote">Earum, quisquam, fugit? Numquam dolor magni nisi? Suscipit odit, ipsam iusto enim culpa, temporibus vero possimus error voluptates sequi.</blockquote>
-                                <p>
-                                    Earum, quisquam, fugit? Numquam dolor magni nisi? Suscipit odit, ipsam iusto enim culpa, temporibus vero possimus error voluptates sequi. Iusto ipsam, nihil? Eveniet modi maxime animi excepturi a dignissimos doloribus,
-                                    inventore sed ratione, ducimus atque earum maiores tenetur officia commodi dicta tempora consequatur non nesciunt ipsam, consequuntur quia fuga aspernatur impedit et? Natus, earum.
-                                </p><br /> Thanks<br /> Jhone
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Secondary Inbox sidebar-->
-                <div class="inbox-secondary-sidebar perfect-scrollbar rtl-ps-none" data-sidebar="secondary"><i class="sidebar-close i-Close" data-sidebar-toggle="secondary"></i>
-                    <div class="mail-item">
-                        <div class="avatar"><img src="../../dist-assets/images/faces/1.jpg" alt="" /></div>
-                        <div class="col-xs-6 details"><span class="name text-muted">John Doe</span>
-                            <p class="m-0">Confirm your email</p>
-                        </div>
-                        <div class="col-xs-3 date"><span class="text-muted">20 Dec 2018</span></div>
-                    </div>
-                    <div class="mail-item">
-                        <div class="avatar"><img src="../../dist-assets/images/faces/5.jpg" alt="" /></div>
-                        <div class="col-xs-6 details"><span class="name text-muted">John Doe</span>
-                            <p class="m-0">Confirm your email</p>
-                        </div>
-                        <div class="col-xs-3 date"><span class="text-muted">20 Dec 2018</span></div>
-                    </div>
-                    <div class="mail-item">
-                        <div class="avatar"><img src="../../dist-assets/images/faces/2.jpg" alt="" /></div>
-                        <div class="col-xs-6 details"><span class="name text-muted">John Doe</span>
-                            <p class="m-0">Confirm your email</p>
-                        </div>
-                        <div class="col-xs-3 date"><span class="text-muted">20 Dec 2018</span></div>
-                    </div>
-                    <div class="mail-item">
-                        <div class="avatar"><img src="../../dist-assets/images/faces/3.jpg" alt="" /></div>
-                        <div class="col-xs-6 details"><span class="name text-muted">John Doe</span>
-                            <p class="m-0">Confirm your email</p>
-                        </div>
-                        <div class="col-xs-3 date"><span class="text-muted">20 Dec 2018</span></div>
-                    </div>
-                    <div class="mail-item">
-                        <div class="avatar"><img src="../../dist-assets/images/faces/4.jpg" alt="" /></div>
-                        <div class="col-xs-6 details"><span class="name text-muted">John Doe</span>
-                            <p class="m-0">Confirm your email</p>
-                        </div>
-                        <div class="col-xs-3 date"><span class="text-muted">20 Dec 2018</span></div>
-                    </div>
-                    <div class="mail-item">
-                        <div class="avatar"><img src="../../dist-assets/images/faces/5.jpg" alt="" /></div>
-                        <div class="col-xs-6 details"><span class="name text-muted">John Doe</span>
-                            <p class="m-0">Confirm your email</p>
-                        </div>
-                        <div class="col-xs-3 date"><span class="text-muted">20 Dec 2018</span></div>
-                    </div>
-                    <div class="mail-item">
-                        <div class="avatar"><img src="../../dist-assets/images/faces/4.jpg" alt="" /></div>
-                        <div class="col-xs-6 details"><span class="name text-muted">John Doe</span>
-                            <p class="m-0">Confirm your email</p>
-                        </div>
-                        <div class="col-xs-3 date"><span class="text-muted">20 Dec 2018</span></div>
-                    </div>
-                    <div class="mail-item">
-                        <div class="avatar"><img src="../../dist-assets/images/faces/9.jpg" alt="" /></div>
-                        <div class="col-xs-6 details"><span class="name text-muted">John Doe</span>
-                            <p class="m-0">Confirm your email</p>
-                        </div>
-                        <div class="col-xs-3 date"><span class="text-muted">20 Dec 2018</span></div>
+<div class="main-content pt-4">
+    <div class="breadcrumb">
+        <h1 class="mr-2">Deshboard</h1>
+       
+    </div>
+    <div class="separator-breadcrumb border-top"></div>
+    <div class="row">
+        <!-- ICON BG-->
+        <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card card-icon-bg card-icon-bg-primary o-hidden mb-4">
+                <div class="card-body text-center"><i class="i-Add-User"></i>
+                    <div class="content">
+                        <p class="text-muted mt-2 mb-0">New Leads</p>
+                        <p class="text-primary text-24 line-height-1 mb-2">205</p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- MAIN INBOX SIDEBAR-->
-        <div class="inbox-main-sidebar" data-sidebar="main" data-sidebar-position="left">
-            <div class="pt-3 pr-3 pb-3"><i class="sidebar-close i-Close" data-sidebar-toggle="main"></i>
-                <button class="btn btn-rounded btn-primary btn-block mb-4">Compose</button>
-                <div class="pl-3">
-                    <p class="text-muted mb-2">Browse</p>
-                    <ul class="inbox-main-nav">
-                        <li><a class="active" href=""><i class="icon-regular i-Mail-2"></i> Inbox (2)</a></li>
-                        <li><a href=""><i class="icon-regular i-Mail-Outbox"></i> Sent</a></li>
-                        <li><a href=""><i class="icon-regular i-Mail-Favorite"></i> Starred</a></li>
-                        <li><a href=""><i class="icon-regular i-Folder-Trash"></i> Trash</a></li>
-                        <li><a href=""><i class="icon-regular i-Spam-Mail"></i> Spam</a></li>
-                    </ul>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card card-icon-bg card-icon-bg-primary o-hidden mb-4">
+                <div class="card-body text-center"><i class="i-Financial"></i>
+                    <div class="content">
+                        <p class="text-muted mt-2 mb-0">Sales</p>
+                        <p class="text-primary text-24 line-height-1 mb-2">$4021</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card card-icon-bg card-icon-bg-primary o-hidden mb-4">
+                <div class="card-body text-center"><i class="i-Checkout-Basket"></i>
+                    <div class="content">
+                        <p class="text-muted mt-2 mb-0">Orders</p>
+                        <p class="text-primary text-24 line-height-1 mb-2">80</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card card-icon-bg card-icon-bg-primary o-hidden mb-4">
+                <div class="card-body text-center"><i class="i-Money-2"></i>
+                    <div class="content">
+                        <p class="text-muted mt-2 mb-0">Expense</p>
+                        <p class="text-primary text-24 line-height-1 mb-2">$1200</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-lg-8 col-md-12">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="card-title">This Year Sales</div>
+                    <div id="echartBar" style="height: 300px; -webkit-tap-highlight-color: transparent; user-select: none; position: relative;" _echarts_instance_="ec_1663225960624"><div style="position: relative; overflow: hidden; width: 647px; height: 300px; padding: 0px; margin: 0px; border-width: 0px; cursor: default;"><canvas data-zr-dom-id="zr_0" width="647" height="300" style="position: absolute; left: 0px; top: 0px; width: 647px; height: 300px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas></div><div></div></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="card-title">Sales by Countries</div>
+                    <div id="echartPie" style="height: 300px; -webkit-tap-highlight-color: transparent; user-select: none; position: relative;" _echarts_instance_="ec_1663225960625"><div style="position: relative; overflow: hidden; width: 288px; height: 300px; padding: 0px; margin: 0px; border-width: 0px;"><canvas data-zr-dom-id="zr_0" width="288" height="300" style="position: absolute; left: 0px; top: 0px; width: 288px; height: 300px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas></div><div></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 col-md-12">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="card card-chart-bottom o-hidden mb-4">
+                        <div class="card-body">
+                            <div class="text-muted">Last Month Sales</div>
+                            <p class="mb-4 text-primary text-24">$40250</p>
+                        </div>
+                        <div id="echart1" style="height: 260px; -webkit-tap-highlight-color: transparent; user-select: none; position: relative;" _echarts_instance_="ec_1663225960626"><div style="position: relative; overflow: hidden; width: 239px; height: 260px; padding: 0px; margin: 0px; border-width: 0px;"><canvas data-zr-dom-id="zr_0" width="239" height="260" style="position: absolute; left: 0px; top: 0px; width: 239px; height: 260px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas></div><div></div></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="card card-chart-bottom o-hidden mb-4">
+                        <div class="card-body">
+                            <div class="text-muted">Last Week Sales</div>
+                            <p class="mb-4 text-warning text-24">$10250</p>
+                        </div>
+                        <div id="echart2" style="height: 260px; -webkit-tap-highlight-color: transparent; user-select: none; position: relative;" _echarts_instance_="ec_1663225960627"><div style="position: relative; overflow: hidden; width: 239px; height: 260px; padding: 0px; margin: 0px; border-width: 0px;"><canvas data-zr-dom-id="zr_0" width="239" height="260" style="position: absolute; left: 0px; top: 0px; width: 239px; height: 260px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas></div><div></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card o-hidden mb-4">
+                        <div class="card-header d-flex align-items-center border-0">
+                            <h3 class="w-50 float-left card-title m-0">New Users</h3>
+                            <div class="dropdown dropleft text-right w-50 float-right">
+                                <button class="btn bg-gray-100" id="dropdownMenuButton1" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="nav-icon i-Gear-2"></i></button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1"><a class="dropdown-item" href="#">Add new user</a><a class="dropdown-item" href="#">View All users</a><a class="dropdown-item" href="#">Something else here</a></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="table-responsive">
+                                <table class="table text-center" id="user_table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Name</th>
+                                            <th scope="col">Avatar</th>
+                                            <th scope="col">Email</th>
+                                            <th scope="col">Status</th>
+                                            <th scope="col">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Smith Doe</td>
+                                            <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt=""></td>
+                                            <td>Smith@gmail.com</td>
+                                            <td><span class="badge badge-success">Active</span></td>
+                                            <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Jhon Doe</td>
+                                            <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt=""></td>
+                                            <td>Jhon@gmail.com</td>
+                                            <td><span class="badge badge-info">Pending</span></td>
+                                            <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Alex</td>
+                                            <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt=""></td>
+                                            <td>Otto@gmail.com</td>
+                                            <td><span class="badge badge-warning">Not Active</span></td>
+                                            <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td>Mathew Doe</td>
+                                            <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt=""></td>
+                                            <td>Mathew@gmail.com</td>
+                                            <td><span class="badge badge-success">Active</span></td>
+                                            <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="card-title">Top Selling Products</div>
+                    <div class="d-flex flex-column flex-sm-row align-items-sm-center mb-3"><img class="avatar-lg mb-3 mb-sm-0 rounded mr-sm-3" src="../../dist-assets/images/products/headphone-4.jpg" alt="">
+                        <div class="flex-grow-1">
+                            <h5><a href="">Wireless Headphone E23</a></h5>
+                            <p class="m-0 text-small text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="text-small text-danger m-0">$450
+                                <del class="text-muted">$500</del>
+                            </p>
+                        </div>
+                        <div>
+                            <button class="btn btn-outline-primary mt-3 mb-3 m-sm-0 btn-rounded btn-sm">
+                                View
+                                details
+                            </button>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-sm-row align-items-sm-center mb-3"><img class="avatar-lg mb-3 mb-sm-0 rounded mr-sm-3" src="../../dist-assets/images/products/headphone-2.jpg" alt="">
+                        <div class="flex-grow-1">
+                            <h5><a href="">Wireless Headphone Y902</a></h5>
+                            <p class="m-0 text-small text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="text-small text-danger m-0">$550
+                                <del class="text-muted">$600</del>
+                            </p>
+                        </div>
+                        <div>
+                            <button class="btn btn-outline-primary mt-3 mb-3 m-sm-0 btn-sm btn-rounded">
+                                View
+                                details
+                            </button>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-sm-row align-items-sm-center mb-3"><img class="avatar-lg mb-3 mb-sm-0 rounded mr-sm-3" src="../../dist-assets/images/products/headphone-3.jpg" alt="">
+                        <div class="flex-grow-1">
+                            <h5><a href="">Wireless Headphone E09</a></h5>
+                            <p class="m-0 text-small text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="text-small text-danger m-0">$250
+                                <del class="text-muted">$300</del>
+                            </p>
+                        </div>
+                        <div>
+                            <button class="btn btn-outline-primary mt-3 mb-3 m-sm-0 btn-sm btn-rounded">
+                                View
+                                details
+                            </button>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-sm-row align-items-sm-center mb-3"><img class="avatar-lg mb-3 mb-sm-0 rounded mr-sm-3" src="../../dist-assets/images/products/headphone-4.jpg" alt="">
+                        <div class="flex-grow-1">
+                            <h5><a href="">Wireless Headphone X89</a></h5>
+                            <p class="m-0 text-small text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="text-small text-danger m-0">$450
+                                <del class="text-muted">$500</del>
+                            </p>
+                        </div>
+                        <div>
+                            <button class="btn btn-outline-primary mt-3 mb-3 m-sm-0 btn-sm btn-rounded">
+                                View
+                                details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card-body p-0">
+                    <div class="card-title border-bottom d-flex align-items-center m-0 p-3"><span>User activity</span><span class="flex-grow-1"></span><span class="badge badge-pill badge-warning">Updated daily</span></div>
+                    <div class="d-flex border-bottom justify-content-between p-3">
+                        <div class="flex-grow-1"><span class="text-small text-muted">Pages / Visit</span>
+                            <h5 class="m-0">2065</h5>
+                        </div>
+                        <div class="flex-grow-1"><span class="text-small text-muted">New user</span>
+                            <h5 class="m-0">465</h5>
+                        </div>
+                        <div class="flex-grow-1"><span class="text-small text-muted">Last week</span>
+                            <h5 class="m-0">23456</h5>
+                        </div>
+                    </div>
+                    <div class="d-flex border-bottom justify-content-between p-3">
+                        <div class="flex-grow-1"><span class="text-small text-muted">Pages / Visit</span>
+                            <h5 class="m-0">1829</h5>
+                        </div>
+                        <div class="flex-grow-1"><span class="text-small text-muted">New user</span>
+                            <h5 class="m-0">735</h5>
+                        </div>
+                        <div class="flex-grow-1"><span class="text-small text-muted">Last week</span>
+                            <h5 class="m-0">92565</h5>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between p-3">
+                        <div class="flex-grow-1"><span class="text-small text-muted">Pages / Visit</span>
+                            <h5 class="m-0">3165</h5>
+                        </div>
+                        <div class="flex-grow-1"><span class="text-small text-muted">New user</span>
+                            <h5 class="m-0">165</h5>
+                        </div>
+                        <div class="flex-grow-1"><span class="text-small text-muted">Last week</span>
+                            <h5 class="m-0">32165</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="card mb-4">
+                <div class="card-body p-0">
+                    <h5 class="card-title m-0 p-3">Last 20 Day Leads</h5>
+                    <div id="echart3" style="height: 360px; -webkit-tap-highlight-color: transparent; user-select: none; position: relative;" _echarts_instance_="ec_1663225960628"><div style="position: relative; overflow: hidden; width: 1045px; height: 360px; padding: 0px; margin: 0px; border-width: 0px;"><canvas data-zr-dom-id="zr_0" width="1045" height="360" style="position: absolute; left: 0px; top: 0px; width: 1045px; height: 360px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas></div><div></div></div>
+                </div>
+            </div>
+        </div>
+    </div><!-- end of main-content -->
+</div>
 @endsection

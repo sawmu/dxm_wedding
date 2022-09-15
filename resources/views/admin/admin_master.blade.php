@@ -5,12 +5,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>DxM | Admin</title>
+    <title>DxM | Dashboard</title>
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700,800,900" rel="stylesheet" />
     <link href="{{asset('backend/dist-assets/css/themes/lite-purple.css')}}" rel="stylesheet" />
     <link href="{{asset('backend/dist-assets/css/plugins/perfect-scrollbar.css')}}" rel="stylesheet" />
     <link rel="stylesheet" href="{{asset('backend/dist-assets/css/plugins/fontawesome-5.css')}}" />
     <link href="{{asset('backend/dist-assets/css/plugins/metisMenu.min.css')}}" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700,800,900" rel="stylesheet" />
+
 
      <!-- FAVICON -->
    <link href="{{asset('backend\elora.png')}}" rel="shortcut icon" />
@@ -207,6 +209,15 @@
     <script src="{{asset('backend/dist-assets/js/plugins/metisMenu.min.js')}}"></script>
     <script src="{{asset('backend/dist-assets/js/scripts/layout-sidebar-vertical.min.js')}}"></script>
     <script src="{{asset('backend/dist-assets/js/scripts/sidebar.script.min.js')}}"></script>
+
+    <script src="{{asset('backend/dist-assets/js/plugins/echarts.min.js')}}"></script>
+    <script src="{{asset('backend/dist-assets/js/scripts/echart.options.min.js')}}"></script>
+    <script src="{{asset('backend/dist-assets/js/plugins/datatables.min.js')}}"></script>
+    <script src="{{asset('backend/dist-assets/js/scripts/dashboard.v4.script.min.js')}}"></script>
+    <script src="{{asset('backend/dist-assets/js/scripts/widgets-statistics.min.js')}}"></script>
+    <script src="{{asset('backend/dist-assets/js/plugins/apexcharts.min.js')}}"></script>
+    <script src="{{asset('backend/dist-assets/js/scripts/apexSparklineChart.script.min.js')}}"></script>
+    <script src="{{asset('backend/dist-assets/js/scripts/dashboard.v1.script.min.js')}}"></script>
 </body>
 
 </html>

@@ -1,3 +1,8 @@
+@php
+    $prefix = Request::route()->getPrefix();
+    $route = Route::current()->getName();
+@endphp
+
 <div class="sidebar-panel bg-white">
     <div class="gull-brand pr-3 text-center mt-4 mb-2 d-flex justify-content-center align-items-center"><img class="pl-3" src="{{asset('backend/dist-assets/images/logo.png')}}" alt="Logo" />
         <!--  <span class=" item-name text-20 text-primary font-weight-700">GULL</span> -->
@@ -8,11 +13,19 @@
         <div class="side-nav">
             <div class="main-menu">
                 <ul class="metismenu" id="menu">
-                    <li class="Ul_li--hover"><a class="" href="#"><i class="i-Bar-Chart text-20 mr-2 text-muted"></i><span class="item-name text-15 text-muted">Dashboard</span></a></li>
-                    <li class="Ul_li--hover"><a class="" href="#"><i class="i-Library text-20 mr-2 text-muted"></i><span class="item-name text-15 text-muted">Gust Lists</span></a></li>
-                    <li class="Ul_li--hover"><a class="has-arrow" href="#"><i class="i-Suitcase text-20 mr-2 text-muted"></i><span class="item-name text-15 text-muted">Extra Kits</span></a>
-                        <ul class="mm-collapse">
-                            <li class="item-name"><a href="image.cropper.html"><i class="nav-icon i-Crop-2"></i><span class="item-name">Image Cropper</span></a></li>
+                    <li class="Ul_li--hover ">
+                        <a class="" href="{{route('home.dashboard')}}"><i class="i-Bar-Chart text-20 mr-2 text-muted"></i><span class="item-name text-15 text-muted">Dashboard</span></a>
+                    </li>
+                    
+                    
+                    <li class="Ul_li--hover"><a class="" href="#">
+                        <i class="i-Library text-20 mr-2 text-muted"></i>
+                        <span class="item-name text-15 text-muted">Gust Lists</span></a>
+                    </li>
+
+                    <li class="Ul_li--hover {{ ($prefix == '/admin')?'active expand':'' }}"><a class="has-arrow" href="#"><i class="i-Suitcase text-20 mr-2 text-muted"></i><span class="item-name text-15 text-muted">Design</span></a>
+                        <ul class="mm-collapse {{ ($prefix == '/admin')?'show':'' }}">
+                            <li class="item-name"><a href="{{route('home.banner')}}"><i class="nav-icon i-Crop-2"></i><span class="item-name">Banner</span></a></li>
                             <li class="item-name"><a href="loaders.html"><i class="nav-icon i-Loading-3"></i><span class="item-name">Loaders</span></a></li>
                             <li class="item-name"><a href="ladda.button.html"><i class="nav-icon i-Loading-2"></i><span class="item-name">Ladda Buttons</span></a></li>
                             <li class="item-name"><a href="toastr.html"><i class="nav-icon i-Bell"></i><span class="item-name">Toastr</span></a></li>

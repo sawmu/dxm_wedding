@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SignoutController;
 use Illuminate\Support\Facades\DB;
+use App\Http\Controllers\BannerController;
 
 /*
 |--------------------------------------------------------------------------
@@ -41,5 +42,12 @@ Route::get('/clear', function() {
     Artisan::call('route:clear');
 
     return "Cleared!";
+
+});
+
+// User Management All Route
+Route::prefix('admin')->group(function(){
+    Route::get('/dashboard',[BannerController::class, 'HomeDashboard'])->name('home.dashboard');
+    Route::get('/banner',[BannerController::class, 'HomeBanner'])->name('home.banner');
 
 });
