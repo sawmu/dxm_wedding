@@ -20,10 +20,11 @@
                     
                     <li class="Ul_li--hover"><a class="" href="#">
                         <i class="i-Library text-20 mr-2 text-muted"></i>
+                        
                         <span class="item-name text-15 text-muted">Gust Lists</span></a>
                     </li>
 
-                    <li class="Ul_li--hover {{ ($prefix == '/admin')?'active expand':'' }}"><a class="has-arrow" href="#"><i class="i-Suitcase text-20 mr-2 text-muted"></i><span class="item-name text-15 text-muted">Design</span></a>
+                    <li class="Ul_li--hover {{ ($prefix == '/admin')?'active expand':'' }}"><a class="has-arrow" href="#"><i class="i-Computer-Secure text-20 mr-2 text-muted"></i><span class="item-name text-15 text-muted">Design</span></a>
                         <ul class="mm-collapse {{ ($prefix == '/admin')?'show':'' }}">
                             <li class="item-name"><a href="{{route('home.banner')}}"><i class="nav-icon i-Crop-2"></i><span class="item-name">Banner</span></a></li>
                             <li class="item-name"><a href="loaders.html"><i class="nav-icon i-Loading-3"></i><span class="item-name">Loaders</span></a></li>
@@ -34,7 +35,7 @@
                             <li class="item-name"><a href="upload.html"><i class="nav-icon i-Data-Upload"></i><span class="item-name">Upload</span></a></li>
                         </ul>
                     </li>
-                    <li class="Ul_li--hover"><a class="has-arrow" href="#"><i class="i-Computer-Secure text-20 mr-2 text-muted"></i><span class="item-name text-15 text-muted">Apps</span></a>
+                    <li class="Ul_li--hover"><a class="has-arrow" href="#"><i class="i-Suitcase text-20 mr-2 text-muted"></i><span class="item-name text-15 text-muted">Apps</span></a>
                         <ul class="mm-collapse">
                             <li class="item-name"><a href="contact-list-table.html"><i class="nav-icon i-Business-Mens"></i><span class="item-name">contact List</span></a></li>
                             <li class="item-name"><a href="invoice.html"><i class="nav-icon i-Add-File"></i><span class="item-name">Invoice</span></a></li>
