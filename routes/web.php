@@ -33,6 +33,20 @@ Route::middleware([
 
 Route::get('/user/logout',[SignoutController::class, 'Logout'])->name('user.logout');
 
+// User Management All Route
+Route::prefix('admin')->group(function(){
+    Route::get('/dashboard',[BannerController::class, 'HomeDashboard'])->name('home.dashboard');
+
+    // Banner
+    Route::get('/banner',[BannerController::class, 'HomeBanner'])->name('home.banner');
+    Route::post('/store/banner',[BannerController::class, 'StoreBanner'])->name('store.banner');
+
+});
+
+
+
+
+
 Route::get('/clear', function() {
 
     Artisan::call('cache:clear');
@@ -42,12 +56,5 @@ Route::get('/clear', function() {
     Artisan::call('route:clear');
 
     return "Cleared!";
-
-});
-
-// User Management All Route
-Route::prefix('admin')->group(function(){
-    Route::get('/dashboard',[BannerController::class, 'HomeDashboard'])->name('home.dashboard');
-    Route::get('/banner',[BannerController::class, 'HomeBanner'])->name('home.banner');
 
 });
