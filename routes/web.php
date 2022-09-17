@@ -29,9 +29,7 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('admin.index');
     })->name('dashboard');
-});
 
-Route::get('/user/logout',[SignoutController::class, 'Logout'])->name('user.logout');
 
 // User Management All Route
 Route::prefix('admin')->group(function(){
@@ -40,8 +38,14 @@ Route::prefix('admin')->group(function(){
     // Banner
     Route::get('/banner',[BannerController::class, 'HomeBanner'])->name('home.banner');
     Route::post('/store/banner',[BannerController::class, 'StoreBanner'])->name('store.banner');
+    
 
 });
+});
+
+Route::get('/user/logout',[SignoutController::class, 'Logout'])->name('user.logout');
+
+
 
 
 
