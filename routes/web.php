@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SignoutController;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\BannerController;
+use App\Http\Controllers\GustListController;
 
 /*
 |--------------------------------------------------------------------------
@@ -42,6 +43,9 @@ Route::prefix('admin')->group(function(){
     Route::get('/banner/edit/{id}',[BannerController::class, 'Edit']);
     Route::post('/banner/update/{id}',[BannerController::class, 'Update']);
     Route::get('/banner/delete/{id}',[BannerController::class, 'Delete']);
+
+    //Gust List
+    Route::get('/gust-list',[GustListController::class, 'HomeGustList'])->name('home.gustList');
 
 });
 

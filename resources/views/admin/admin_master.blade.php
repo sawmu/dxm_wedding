@@ -11,7 +11,8 @@
     <link href="{{asset('backend/dist-assets/css/plugins/perfect-scrollbar.css')}}" rel="stylesheet" />
     <link rel="stylesheet" href="{{asset('backend/dist-assets/css/plugins/fontawesome-5.css')}}" />
     <link href="{{asset('backend/dist-assets/css/plugins/metisMenu.min.css')}}" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700,800,900" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="{{asset('backend/dist-assets/css/plugins/datatables.min.css')}}" />
 
 
      <!-- FAVICON -->
@@ -38,30 +39,7 @@
 
                 @yield('admin')
               
-                <!-- Footer Start-->
-                <div class="flex-grow-1"></div>
-                <div class="app-footer">
-                    <div class="row">
-                        <div class="col-md-9">
-                            <p><strong>Gull - Laravel + Bootstrap 4 admin template</strong></p>
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero quis beatae officia saepe perferendis voluptatum minima eveniet voluptates dolorum, temporibus nisi maxime nesciunt totam repudiandae commodi sequi dolor quibusdam
-                                sunt.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="footer-bottom border-top pt-3 d-flex flex-column flex-sm-row align-items-center"><a class="btn btn-primary text-white btn-rounded" href="https://themeforest.net/user/mh_rafi" target="_blank">
-                            Buy
-                            Gull HTML</a><span class="flex-grow-1"></span>
-                        <div class="d-flex align-items-center"><img class="logo" src="./../../dist-assets/images/logo.png" alt="" />
-                            <div>
-                                <p class="m-0">&copy; 2018 Gull HTML</p>
-                                <p class="m-0">All rights reserved</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- fotter end-->
+                
                 <!-- end of main-content -->
             </div>
             <div class="sidebar-overlay open"></div><!-- Footer Start -->
@@ -218,6 +196,11 @@
     <script src="{{asset('backend/dist-assets/js/plugins/apexcharts.min.js')}}"></script>
     <script src="{{asset('backend/dist-assets/js/scripts/apexSparklineChart.script.min.js')}}"></script>
     <script src="{{asset('backend/dist-assets/js/scripts/dashboard.v1.script.min.js')}}"></script>
+
+    {{-- Database Table --}}
+    <script src="{{asset('backend/dist-assets/js/scripts/layout-sidebar-vertical.min.js')}}"></script> 
+    <script src="{{asset('backend/dist-assets/js/plugins/datatables.min.js')}}"></script>
+    <script src="{{asset('backend/dist-assets/js/scripts/datatables.script.min.js')}}"></script>
 </body>
 
 </html>

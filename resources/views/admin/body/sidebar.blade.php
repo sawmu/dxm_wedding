@@ -18,7 +18,7 @@
                     </li>
                     
                     
-                    <li class="Ul_li--hover"><a class="" href="#">
+                    <li class="Ul_li--hover"><a class="" href="{{route('home.gustList')}}">
                         <i class="i-Library text-20 mr-2 text-muted"></i>
                         
                         <span class="item-name text-15 text-muted">Gust Lists</span></a>
