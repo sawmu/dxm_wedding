@@ -20,29 +20,41 @@ class BannerController extends Controller
         return view('admin.banner.index', compact('banners'));
     }
 
-    // public function StoreBanner(Request $request){
+    public function AddBanner()
+    {
+        return view('admin.banner.store');
+    }
 
-    //     $banner_image = $request->file('image'); 
+    public function StoreBanner(Request $request){
 
-    //     $name_gen = hexdec(uniqid()).'.'.$banner_image->getClientOriginalExtension();
+        $banner_image = $request->file('image'); 
 
-    //     Image::make($banner_image)->resize(560, 741)->save('images/banner/'.$name_gen);
+        $name_gen = hexdec(uniqid()).'.'.$banner_image->getClientOriginalExtension();
 
-    //     $last_img = 'images/banner/'.$name_gen;
+        Image::make($banner_image)->resize(560, 741)->save('images/banner/'.$name_gen);
 
-    //     // To add data
-    //     Banner::insert([
-    //         'title_one' => $request->title_one,
-    //         'title_two' => $request->title_two,
-    //         'sign' => $request->sign,
-    //         'subtitle' => $request->subtitle,
-    //         'image' => $last_img,
-    //         'created_at' => Carbon::now(),
+        $last_img = 'images/banner/'.$name_gen;
+
+        // To add data
+        Banner::insert([
+            'title_one' => $request->title_one,
+            'title_two' => $request->title_two,
+            'sign' => $request->sign,
+            'subtitle' => $request->subtitle,
+            'image' => $last_img,
+            'created_at' => Carbon::now(),
             
-    //     ]);
+        ]);
 
-    //     return Redirect()->route('home.banner')->with('success', 'Banner Inserted Successfull');
-    // }
+        return Redirect()->route('home.banner')->with('success', 'Banner Inserted Successfull');
+    }
+
+    public function Edit($id){
+            
+        $banner = Banner::find($id);
+
+        return view('admin.banner.edit', compact('banner'));
+    }
 
     public function Update(Request $request, $id){
         // To add image
@@ -58,7 +70,7 @@ class BannerController extends Controller
            
         //   unlink($old_image); // Delete the old image
   
-          $slider = Slider::find($id)->update([
+          $banner = Banner::find($id)->update([
             'title_one' => $request->title_one,
             'title_two' => $request->title_two,
             'sign' => $request->sign,
@@ -70,20 +82,28 @@ class BannerController extends Controller
   
           return Redirect()->route('home.banner')->with('success', 'Slider Updated Successfull');
         } else {
-           $slider = Slider::find($id)->update([
+           $banner = Banner::find($id)->update([
             'title_one' => $request->title_one,
             'title_two' => $request->title_two,
             'sign' => $request->sign,
             'subtitle' => $request->subtitle,
-            'image' => $last_img,
+        
             'created_at' => Carbon::now(),
            ]);
-          return Redirect()->route('home.banner')->with('success', 'Slider Updated Successfull');
+          return Redirect()->route('home.banner')->with('success', 'Banner Updated Successfull');
 
-        }
-
-         
+        }   
    }
+   public function Delete($id){
 
+    $image = Banner::find($id);
+    $old_image = $image->image;
+    unlink($old_image);
+
+
+    $banner = Banner::find($id)->delete();
+
+    return Redirect()->back()->with('success', 'Banner Deleted Successfull');
+} 
 
 }

@@ -37,11 +37,15 @@ Route::prefix('admin')->group(function(){
 
     // Banner
     Route::get('/banner',[BannerController::class, 'HomeBanner'])->name('home.banner');
+    Route::get('/add/banner',[BannerController::class, 'AddBanner'])->name('add.banner');
     Route::post('/store/banner',[BannerController::class, 'StoreBanner'])->name('store.banner');
-    
+    Route::get('/banner/edit/{id}',[BannerController::class, 'Edit']);
+    Route::post('/banner/update/{id}',[BannerController::class, 'Update']);
+    Route::get('/banner/delete/{id}',[BannerController::class, 'Delete']);
 
 });
-});
+
+}); //Admin route end 
 
 Route::get('/user/logout',[SignoutController::class, 'Logout'])->name('user.logout');
 
