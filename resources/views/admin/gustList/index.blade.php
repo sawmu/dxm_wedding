@@ -5,10 +5,12 @@
 <div class="col-md-12 mb-4">
     <div class="card text-left">
         <div class="card-body">
-            <h4 class="card-title mb-3">Feature enable / disable</h4>
-            <p>Disabling features that you don't wish to use for a particular table is easily done by setting a variable in the initialisation object. The full list of available options is <a href="https://datatables.net/reference/option">available in the DataTables reference</a>.</p>
+            <h4 class="card-title mb-3">All Gust Lists</h4>
             <div class="table-responsive">
-                <div id="feature_disable_table_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4"><div class="row"><div class="col-sm-12 col-md-6"></div><div class="col-sm-12 col-md-6"><div id="feature_disable_table_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="feature_disable_table"></label></div></div></div><div class="row"><div class="col-sm-12"><table class="display table table-striped table-bordered dataTable" id="feature_disable_table" style="width: 100%;" role="grid">
+                <div id="feature_disable_table_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4"><div class="row"><div class="col-sm-12 col-md-6"></div>
+                <div class="col-sm-12 col-md-6">
+                   </div></div>
+                <div class="row"><div class="col-sm-12"><table class="display table table-striped table-bordered dataTable" id="feature_disable_table" style="width: 100%;" role="grid">
                     <thead>
                         <tr role="row">
                             <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 65px;">Name</th>
