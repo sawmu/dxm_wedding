@@ -33,7 +33,7 @@
                                 <td>{{ $banner->sign}}</td>
                                 <td>{{ $banner->title_two}}</td>
                                 <td>{{ $banner->subtitle}}</td>
-                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../{{ $banner->image}}" alt="profile_image"></td>
+                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../{{ $banner->image}}" alt="profile_image"></td>
                                 
                                 <td>
                                     <button class="btn btn-success" type="button"><a class="" href=" {{ url('admin/banner/edit/'.$banner->id)}} "><i class="nav-icon i-Pen-2"></i></a></button>

@@ -5,15 +5,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>DxM | Dashboard</title>
+    <title>Elora | Dashboard</title>
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700,800,900" rel="stylesheet" />
     <link href="{{asset('backend/dist-assets/css/themes/lite-purple.css')}}" rel="stylesheet" />
     <link href="{{asset('backend/dist-assets/css/plugins/perfect-scrollbar.css')}}" rel="stylesheet" />
     <link rel="stylesheet" href="{{asset('backend/dist-assets/css/plugins/fontawesome-5.css')}}" />
     <link href="{{asset('backend/dist-assets/css/plugins/metisMenu.min.css')}}" rel="stylesheet" />
-    
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{asset('backend/dist-assets/css/plugins/datatables.min.css')}}" />
-
+    <link rel="stylesheet" href="{{asset('backend/dist-assets/css/style.css')}}" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
      <!-- FAVICON -->
    <link href="{{asset('backend\elora.png')}}" rel="shortcut icon" />

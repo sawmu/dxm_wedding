@@ -1,0 +1,13 @@
+.active{
+    background-color: #66339941;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px; 
+    left: -233px;
+    width: 93%;
+    transition: all 400ms ease;
+}
+
+.layout-sidebar-vertical .sidebar-panel .side-nav .main-menu ul li {
+    
+    padding: 0 15px;
+}

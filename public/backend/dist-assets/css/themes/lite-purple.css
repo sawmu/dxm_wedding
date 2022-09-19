@@ -17232,7 +17232,7 @@ a.typo_link.text-gray-900:after {
     display: flex;
     justify-content: space-between; }
   .layout-sidebar-vertical .sidebar-panel .side-nav .main-menu ul {
-    padding: 0 12px; }
+    padding: 0 ; }
     .layout-sidebar-vertical .sidebar-panel .side-nav .main-menu ul li {
       list-style: none;
       font-size: 15px; }

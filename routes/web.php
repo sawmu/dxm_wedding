@@ -28,26 +28,27 @@ Route::middleware([
     'verified'
 ])->group(function () {
     Route::get('/dashboard', function () {
-        return view('admin.index');
-    })->name('dashboard');
+        return view('admin.index');})->name('dashboard');
 
 
-// User Management All Route
-Route::prefix('admin')->group(function(){
-    Route::get('/dashboard',[BannerController::class, 'HomeDashboard'])->name('home.dashboard');
+    // User Management All Route
+    Route::prefix('admin')->group(function(){
+        Route::get('/dashboard',[BannerController::class, 'HomeDashboard'])->name('home.dashboard');
 
-    // Banner
-    Route::get('/banner',[BannerController::class, 'HomeBanner'])->name('home.banner');
-    Route::get('/add/banner',[BannerController::class, 'AddBanner'])->name('add.banner');
-    Route::post('/store/banner',[BannerController::class, 'StoreBanner'])->name('store.banner');
-    Route::get('/banner/edit/{id}',[BannerController::class, 'Edit']);
-    Route::post('/banner/update/{id}',[BannerController::class, 'Update']);
-    Route::get('/banner/delete/{id}',[BannerController::class, 'Delete']);
+        //Gust List
+        Route::get('/gust-list',[GustListController::class, 'HomeGustList'])->name('home.gustList');
 
-    //Gust List
-    Route::get('/gust-list',[GustListController::class, 'HomeGustList'])->name('home.gustList');
+    });
 
-});
+    Route::prefix('admin/design')->group(function(){
+        // Banner
+        Route::get('/banner',[BannerController::class, 'HomeBanner'])->name('home.banner');
+        Route::get('/add/banner',[BannerController::class, 'AddBanner'])->name('add.banner');
+        Route::post('/store/banner',[BannerController::class, 'StoreBanner'])->name('store.banner');
+        Route::get('/banner/edit/{id}',[BannerController::class, 'Edit']);
+        Route::post('/banner/update/{id}',[BannerController::class, 'Update']);
+        Route::get('/banner/delete/{id}',[BannerController::class, 'Delete']);
+    });
 
 }); //Admin route end 
 
