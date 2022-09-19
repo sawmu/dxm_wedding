@@ -3,7 +3,7 @@
 @section('admin')
 <div class="main-content pt-4">
     <div class="breadcrumb">
-        <h1 class="mr-2">Deshboard</h1>
+        <h1 class="mr-2">Dashboard</h1>
        
     </div>
     <div class="separator-breadcrumb border-top"></div>
