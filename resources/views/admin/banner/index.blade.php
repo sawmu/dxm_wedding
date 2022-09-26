@@ -36,13 +36,8 @@
                                 <td><img class="rounded-circle m-0 avatar-sm-table" src="../../{{ $banner->image}}" alt="profile_image"></td>
                                 
                                 <td>
-<<<<<<< HEAD
-                                    <button class="btn btn-success" type="button"><a class="" href=" {{ url('admin/design/banner/edit/'.$banner->id)}} "><i class="fa-solid fa-pen-fancy"></i></a></button>
-                                    <button class="btn btn-danger" type="button"><a onclick="return confirm('Are you sure to delete')" href=" {{ url('admin/design/banner/delete/'.$banner->id)}} "> <i class="fa-regular fa-rectangle-xmark"></i> </a></button>
-=======
                                     <button class="btn btn-success" type="button"><a class="" href=" {{ url('admin/design/banner/edit/'.$banner->id)}} "><i class="nav-icon i-Pen-2"></i></a></button>
                                     <button class="btn btn-danger" type="button"><a onclick="return confirm('Are you sure to delete')" href=" {{ url('admin/design/banner/delete/'.$banner->id)}} "> <i class="nav-icon i-Close-Window"></i> </a></button>
->>>>>>> ee6497862a6c33df87b702acb11472486355214a
                                 </td>
                             </tr>
                             @endforeach

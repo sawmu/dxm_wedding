@@ -27,7 +27,7 @@
                     <li class="Ul_li--hover"><a class="has-arrow" href="#"><i class="fa-regular fa-pen-to-square pr-2 fa-lg"></i><span class="item-name text-15 text-muted">Design</span></a>
                         <ul class="mm-collapse {{ ($prefix == '/admin/design')?'mm-show':'' }}">
                             <li class="item-name {{ (request()->segment(3) == 'banner') ? 'active' : '' }}"><a href="{{route('home.banner')}}"><i class="fa-solid fa-chevron-right pr-2"></i><span class="item-name">Banner</span></a></li>
-                            <li class="item-name"><a href="loaders.html"><i class="fa-solid fa-chevron-right pr-2"></i><span class="item-name">About Us</span></a></li>
+                            <li class="item-name {{ (request()->segment(3) == 'aboutus') ? 'active' : '' }}"><a href="{{route('home.aboutus')}}"><i class="fa-solid fa-chevron-right pr-2"></i><span class="item-name">About Us</span></a></li>
                             <li class="item-name"><a href="ladda.button.html"><i class="fa-solid fa-chevron-right pr-2"></i><span class="item-name">Our Story</span></a></li>
                             <li class="item-name"><a href="toastr.html"><i class="fa-solid fa-chevron-right pr-2"></i><span class="item-name">Bridal Group</span></a></li>
                             <li class="item-name"><a href="sweet.alerts.html"><i class="fa-solid fa-chevron-right pr-2"></i><span class="item-name">Place</span></a></li>

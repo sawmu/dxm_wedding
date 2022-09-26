@@ -5,6 +5,8 @@ use App\Http\Controllers\SignoutController;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\BannerController;
 use App\Http\Controllers\GustListController;
+use App\Http\Controllers\AboutUsController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -48,6 +50,18 @@ Route::middleware([
         Route::get('/banner/edit/{id}',[BannerController::class, 'Edit']);
         Route::post('/banner/update/{id}',[BannerController::class, 'Update']);
         Route::get('/banner/delete/{id}',[BannerController::class, 'Delete']);
+
+        //
+        Route::get('/aboutus',[AboutUsController::class, 'HomeAboutUs'])->name('home.aboutus');
+        Route::get('/add/aboutus',[AboutUsController::class, 'AddAboutUs'])->name('add.aboutus');
+        Route::post('/store/aboutus',[AboutUsController::class, 'StoreAboutUs'])->name('store.aboutus');
+        Route::get('/aboutus/edit/{id}',[AboutUsController::class, 'Edit']);
+        Route::post('/aboutus/update/{id}',[AboutUsController::class, 'Update']);
+        Route::get('/aboutus/delete/{id}',[AboutUsController::class, 'Delete']);
+
+
+
+
     });
 
 }); //Admin route end 

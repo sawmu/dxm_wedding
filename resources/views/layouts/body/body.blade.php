@@ -1,127 +1,14 @@
-@php
-$banners = DB::table('banners')->get();
-@endphp
         <!-- start of hero -->
-        <section class="static-hero">
-            @foreach ($banners as $key => $banner)
-            <div class="hero-container">
-                <div class="hero-inner">
-                    <div class="container-fluid">
-                        <div class="row align-items-center">
-                            <div class="col-xl-8 col-lg-6 col-12">
-                                <div class="wpo-static-hero-inner">
-                                    <div class="shape-1"><img src="{{asset('frontend/assets/images/slider/shape.svg')}}" alt="E&M"></div>
-                                    <div data-swiper-parallax="300" class="slide-title">
-                                        <h2>{{ $banner->title_one }} <span>{{ $banner->sign }}</span>{{ $banner->title_two }}</h2>
-                                    </div>
-                                    <div data-swiper-parallax="400" class="slide-text">
-                                        <p>{{ $banner->subtitle }}</p>
-                                    </div>
-                                    <div class="wpo-wedding-date">
-                                        <div class="clock-grids">
-                                            <div id="clock"></div>
-                                        </div>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="static-hero-right">
-                <div class="static-hero-img">
-                    <div class="static-hero-img-inner">
-                        <img src="{{ $banner->image }}" alt="E&M">
-                    </div>
-                    <div class="static-hero-shape-1 floating-item"><img src="{{asset('frontend/assets/images/slider/flower1.png')}}" alt="E&M"></div>
-                    <div class="static-hero-shape-2 floating-item"><img src="{{asset('frontend/assets/images/slider/flower2.png')}}" alt="E&M"></div>
-                </div>
-            </div>
-            @endforeach
-        </section>
+        @include('layouts.body.layout.hero')
         <!-- end of hero slider -->
-        <!-- start couple-section -->
-        <section class="couple-section " id="couple">
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col col-lg-11">
-                        <div class="couple-area clearfix">
-                            <div class="couple-item bride">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-4">
-                                        <div class="couple-img">
-                                            <img src="{{asset('frontend/our_story/barbie.png')}}" alt="E&M">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-7">
-                                        <div class="couple-text">
-                                            <h3>Edina Ivan</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna orci auctor
-                                                vitae nisl. Erat fringilla pellentesque amet tempus. Commodo mi vitae,
-                                                sed sagittis blandit. Leo netus magna fusce ac turpis mauris maecenas
-                                                non.</p>
-                                            <div class="social">
-                                                <ul>
-                                                    <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                                    <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                                    <li><a href="#"><i class="ti-instagram"></i></a></li>
-                                                    <li><a href="#"><i class="ti-pinterest"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="couple-item groom">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-7 order-lg-1 order-2">
-                                        <div class="couple-text">
-                                            <h3>Saw Mu Ka Hbaw Aye</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna orci auctor
-                                                vitae nisl. Erat fringilla pellentesque amet tempus. Commodo mi vitae,
-                                                sed sagittis blandit. Leo netus magna fusce ac turpis mauris maecenas
-                                                non.</p>
-                                            <div class="social">
-                                                <ul>
-                                                    <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                                    <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                                    <li><a href="#"><i class="ti-instagram"></i></a></li>
-                                                    <li><a href="#"><i class="ti-pinterest"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 order-lg-2 order-1">
-                                        <div class="couple-img">
-                                            <img src="{{asset('frontend/our_story/saw.png')}}" alt="E&M">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> <!-- end container -->
-            <div class="shape-1">
-                <img src="{{asset('frontend/assets/images/couple/shape-1.png')}}" alt="E&M">
-            </div>
-            <div class="shape-2">
-                <img src="{{asset('frontend/assets/images/couple/shape-2.png')}}" alt="E&M">
-            </div>
-        </section>
-        <!-- end couple-section -->
 
-        <!-- start wpo-video-section -->
-        {{-- <section class="wpo-video-section">
-            <h2 class="hidden">some</h2>
-            <a href="https://www.youtube.com/watch?v=Ctwjohruz6s&t=48s&ab_channel=DinaWanderlust" class="video-btn" data-type="iframe"><i
-                    class="fi flaticon-play"></i></a>
-        </section> --}}
-        <!-- end wpo-video-section-->
+        <!-- start of About Us -->
+        @include('layouts.body.layout.aboutus')
+        <!-- end of About Us -->
+       
 
         <!-- start story-section -->
-        <section class="story-section section-padding" id="story">
+        <section class="story-section " id="story">
             <div class="container">
                 <div class="row">
                     <div class="wpo-section-title">
