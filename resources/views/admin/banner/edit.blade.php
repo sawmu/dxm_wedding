@@ -6,7 +6,7 @@
     <div class="card mb-4">
         <div class="card-body">
             <div class="card-title mb-3">Banner Information</div>
-            <form action="{{ url('admin/banner/update/'.$banner->id) }}" method="POST" enctype="multipart/form-data">
+            <form action="{{ url('admin/design/banner/update/'.$banner->id) }}" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="row"></div>
                     <div class="col-md-12 form-group mb-3">
@@ -32,7 +32,7 @@
                             <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">Choose file</label>
                         </div>
                         <div class="form-group">
-                            <img src="{{ asset($banner->image)}}" style="width:400px; Height: 400px" alt="{{ $banner->title_one }}">
+                            <img src="{{ asset($banner->image)}}" style="width:400px; Height: 450px" alt="{{ $banner->title_one }}">
                         </div>
                         {{-- <div class="input-group-append"><span class="input-group-text" id="inputGroupFileAddon02">Upload</span></div> --}}
                     </div>
