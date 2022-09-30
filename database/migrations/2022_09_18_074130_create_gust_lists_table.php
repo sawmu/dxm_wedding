@@ -15,6 +15,12 @@ return new class extends Migration
     {
         Schema::create('gust_lists', function (Blueprint $table) {
             $table->id();
+            $table->string('fullname')->nullable();
+            $table->string('phone')->nullable();
+            $table->string('knowus')->nullable();
+            $table->string('no_guests')->nullable();
+            $table->string('attending')->nullable();
+            $table->string('table')->nullable();
             $table->timestamps();
         });
     }

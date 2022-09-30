@@ -8,4 +8,14 @@ use Illuminate\Database\Eloquent\Model;
 class gustList extends Model
 {
     use HasFactory;
+    protected $fillable = [
+
+        'fullname',
+        'phone',
+        'knowus',
+        'no_guests',
+        'attending',
+        'table',
+
+    ];
 }

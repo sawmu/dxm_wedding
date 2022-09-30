@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.pagination-t {
+    margin-bottom: 50px;
+}
+.hidden {
+    display: none;
+}

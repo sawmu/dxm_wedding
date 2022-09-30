@@ -39,6 +39,11 @@ Route::middleware([
 
         //Gust List
         Route::get('/gust-list',[GustListController::class, 'HomeGustList'])->name('home.gustList');
+        Route::get('/add/gust-list',[GustListController::class, 'AddGustList'])->name('add.gustList');
+        Route::post('/store/gust-list',[GustListController::class, 'StoreGustList'])->name('store.gustList');
+        Route::get('/gust-list/edit/{id}',[GustListController::class, 'Edit']);
+        Route::post('/gust-list/update/{id}',[GustListController::class, 'Update']);
+        Route::get('/gust-list/delete/{id}',[GustListController::class, 'Delete']);
 
     });
 
@@ -85,3 +90,7 @@ Route::get('/clear', function() {
     return "Cleared!";
 
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

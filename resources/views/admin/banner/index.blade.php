@@ -14,7 +14,7 @@
                         <div class="alert alert-primary" role="alert">
                             {{ session('success')}}
                         </div>   
-                         @endif
+                    @endif
                     <table class="table table-hover">
                         <thead>
                             <tr>
