@@ -5,12 +5,17 @@
 <div class="col-md-12 mb-4">
     <div class="card text-left">
         <div class="card-body">
-            <h4 class="card-title mb-3">All Gust Lists</h4>
-            <a href="{{ route('add.gustList')}}"><button class="btn btn-info"> Add Gust </button></a>
+            <div class="container">
+                <h4 class="card-title mb-3">All Gust Lists</h4>
+                <a href="{{ route('add.gustList')}}"><button class="btn btn-info"> Add Gust </button></a>
+            </div>
+            
+           
             <div class="table-responsive">
                 <div id="feature_disable_table_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4"><div class="row"><div class="col-sm-12 col-md-6"></div>
                 <div class="col-sm-12 col-md-6">
-                   </div></div>
+               
+            </div></div>
                 <div class="row"><div class="col-sm-12"><table class="display table table-striped table-bordered dataTable" id="feature_disable_table" style="width: 100%;" role="grid">
                     @if (session('success'))
                         <div class="alert alert-primary" role="alert">
@@ -33,20 +38,21 @@
                   
                         @foreach ($gustLists as $gust)
                         
-                        <tr role="row" id="">
-                                <td scope="row">{{ $gustLists->firstItem()+$loop->index }}</td>
-                                <td>{{$gust->fullname}}</td>
-                                <td>{{$gust->phone}}</td>
-                                <td>{{$gust->knowus}}</td>
-                                <td>{{$gust->no_guests}}</td>
-                                <td>{{$gust->attending}}</td>
-                                <td>{{$gust->table}}</td>
-                                <td>
-                                    <button class="btn btn-success" type="button"><a class="" href="{{ url('admin/gust-list/edit/'.$gust->id)}}"><i class="nav-icon i-Pen-2"></i></a></button>
-                                    <button class="btn btn-danger" type="button"><a onclick="return confirm('Are you sure to delete')" href="{{ url('admin/gust-list/delete/'.$gust->id)}}"> <i class="nav-icon i-Close-Window"></i> </a></button>
-                                </td>
-                        </tr>
-                    @endforeach
+                            <tr role="row" id="">
+                                    <td scope="row">{{ $gustLists->firstItem()+$loop->index }}</td>
+                                    <td>{{$gust->fullname}}</td>
+                                    <td>{{$gust->phone}}</td>
+                                    <td>{{$gust->knowus}}</td>
+                                    <td>{{$gust->no_guests}}</td>
+                                    <td>{{$gust->attending}}</td>
+                                    <td>{{$gust->table}}</td>
+                                    <td>
+                                        <button class="btn btn-success" type="button"><a class="" href="{{ url('admin/gust-list/edit/'.$gust->id)}}"><i class="nav-icon i-Pen-2"></i></a></button>
+                                        <button class="btn btn-danger" type="button"><a onclick="return confirm('Are you sure to delete')" href="{{ url('admin/gust-list/delete/'.$gust->id)}}"> <i class="nav-icon i-Close-Window"></i> </a></button>
+                                    </td>
+                            </tr>
+                            
+                        @endforeach
 
                     
 
