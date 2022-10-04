@@ -36,7 +36,7 @@ class GustListController extends Controller
             
         ]);
 
-        return Redirect()->route('home.gustList')->with('success', 'Gust Inserted Successfull');
+        return Redirect()->back()->with('success', 'Thank you for joining our Big Day');
     }
 
     public function Edit($id){
@@ -52,10 +52,7 @@ class GustListController extends Controller
         // To add data
         gustList::find($id)->update([
             'fullname' => $request->fullname,
-            'phone' => $request->phone,
-            'knowus' => $request->knowus,
-            'no_guests' => $request->no_guests,
-            'attending' => $request->attending,
+            'phone' => $request->phone,        
             'table' => $request->table,
             'created_at' => Carbon::now(),
             

@@ -23,6 +23,10 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/gusts', function () {
+    return view('gust');
+});
+
 
 Route::middleware([
     'auth:sanctum',

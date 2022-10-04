@@ -7,7 +7,7 @@
         <div class="card-body">
             <div class="container">
                 <h4 class="card-title mb-3">All Gust Lists</h4>
-                <a href="{{ route('add.gustList')}}"><button class="btn btn-info"> Add Gust </button></a>
+               
             </div>
             
            
@@ -28,7 +28,7 @@
                             <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 76px;">Full Name</th>
                             <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 50px;">Phone</th>
                             <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 56px;">How do you know us?</th>
-                            <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 73px;">Gusts Invited</th>
+                            <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 73px;">Meal Preferences</th>
                             <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 73px;">Attending</th>               
                             <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 72px;">Table</th>
                             <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 72px;">Action</th>

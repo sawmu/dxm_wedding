@@ -45,7 +45,7 @@
     <!-- end preloader -->
     <!-- Start header -->
     @include('layouts.body.header')
-    @include('layouts.body.body')
+    @include('layouts.body.gusts')
     <!-- end of header -->
 
     <!-- start page-wrapper -->

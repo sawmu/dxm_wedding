@@ -15,7 +15,7 @@
                             </div>
                             <div class="col-lg-2 col-md-6 col-6">
                                 <div class="navbar-header">
-                                    <a class="navbar-brand logo" href="index.html"><small></small>E & M<span><i
+                                    <a class="navbar-brand logo" href="/"><small></small>E & M<span><i
                                                 class="fi flaticon-dove"></i></span></a>
                                 </div>
                             </div>
@@ -36,7 +36,7 @@
                             </div>
                             <div class="col-lg-2 col-md-2 col-2">
                                 <div class="header-right">
-                                    <a class="theme-btn" href="rsvp.html"><span class="text">Attend Now</span> <span class="mobile">
+                                    <a class="theme-btn" href="/gusts"><span class="text">Attend Now</span> <span class="mobile">
                                         <i class="fi flaticon-user"></i>
                                     </span></a>
                                 </div>

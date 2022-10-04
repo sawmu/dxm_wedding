@@ -733,7 +733,7 @@ img {
 }
 
 .wpo-page-title {
-  background: url(../images/page-title.jpg) no-repeat center top/cover;
+  background: url(../../our_story/rest.png) no-repeat center top/cover;
   min-height: 300px;
   position: relative;
   display: flex;
@@ -2990,7 +2990,7 @@ img {
 .wpo-hero-slider-s2,
 .wpo-hero-slider-s3 {
   width: 100%;
-  height: 1000px;
+  height: auto;
   display: flex;
   position: relative;
   z-index: 0;
