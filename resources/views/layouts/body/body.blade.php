@@ -1,8 +1,4 @@
-@extends('layouts.app')
-
-@section('frontend')
-
-        <!-- start of hero -->
+      <!-- start of hero -->
         @include('layouts.body.layout.hero')
         <!-- end of hero slider -->
 
@@ -48,7 +44,7 @@
                                                     <div class="inner-ball"></div>
                                                 </div>
                                              </div>
-                                            <p>Lorem ipsum dolor sit amet, constetur adicng elit. Ultricies nulla mi tempus mcorper for praesent. Ultricies interdum volutpat morbi nam ornare neque elit leo, diam. Malesuada enim ac amurna tempor vel duis.</p>
+                                            <p>Our love story started well before either of us were actually born. Our moms became fast and dear friends as young working professionals in Insein, and motherhood came at a similar time for them. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -64,7 +60,7 @@
                                                     <div class="inner-ball"></div>
                                                 </div>
                                              </div>
-                                            <p>Lorem ipsum dolor sit amet, constetur adicng elit. Ultricies nulla mi tempus mcorper for praesent. Ultricies interdum volutpat morbi nam ornare neque elit leo, diam. Malesuada enim ac amurna tempor vel duis.</p>
+                                            <p>We had never really gone on an official date before we entered into a relationship. So I decided to take matters into my own hands. The day she said yes, I asked her over for dinner. She came home only to find me having cooked an entire meal for her that had kayin food. For us, it has always been about the little things and not the superficial grandeur that surrounds first dates!</p>
                                         </div>
                                     </div>
                                     <div class="col col-lg-6 col-12 order-lg-2 order-1">
@@ -421,6 +417,4 @@
 
             </div> <!-- end container -->
         </section>
-
-@endsection
 
