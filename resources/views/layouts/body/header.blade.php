@@ -15,7 +15,7 @@
                             </div>
                             <div class="col-lg-2 col-md-6 col-6">
                                 <div class="navbar-header">
-                                    <a class="navbar-brand logo" href="index.html"><small>My</small>love<span><i
+                                    <a class="navbar-brand logo" href="index.html"><small></small>E & M<span><i
                                                 class="fi flaticon-dove"></i></span></a>
                                 </div>
                             </div>
