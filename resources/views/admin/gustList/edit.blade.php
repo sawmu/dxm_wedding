@@ -6,7 +6,7 @@
     <div class="card mb-4">
         <div class="card-body">
             <div class="card-title mb-3">Gust Information</div>
-            <form action="{{ route('store.gustList') }}" method="POST" enctype="multipart/form-data">
+            <form action="{{ url('admin/gust-list/update/'.$gust->id) }}" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="row"></div>
                     <div class="col-md-12 form-group mb-3">

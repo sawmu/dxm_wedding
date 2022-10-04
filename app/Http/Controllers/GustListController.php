@@ -46,6 +46,25 @@ class GustListController extends Controller
         return view('admin.gustList.edit', compact('gust'));
     }
 
+    public function Update(Request $request, $id){
+    
+
+        // To add data
+        gustList::find($id)->update([
+            'fullname' => $request->fullname,
+            'phone' => $request->phone,
+            'knowus' => $request->knowus,
+            'no_guests' => $request->no_guests,
+            'attending' => $request->attending,
+            'table' => $request->table,
+            'created_at' => Carbon::now(),
+            
+        ]);
+
+        return Redirect()->route('home.gustList')->with('success', 'Gust Updated Successfull');
+    
+    } 
+
     public function Delete($id){
     
         $gust = gustList::find($id)->delete();
