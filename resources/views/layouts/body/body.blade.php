@@ -115,7 +115,7 @@
 
 
         <!-- start wpo-team-section -->
-        <section class="wpo-team-section section-padding">
+        <section class="wpo-team-section section-padding" id="RSVP">
             <div class="container">
                 <div class="row">
                     <div class="wpo-section-title">

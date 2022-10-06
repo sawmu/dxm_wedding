@@ -15,7 +15,7 @@
                             </div>
                             <div class="col-lg-2 col-md-6 col-6">
                                 <div class="navbar-header">
-                                    <a class="navbar-brand logo" href="/"><small></small>E & M<span><i
+                                    <a class="navbar-brand logo" href="/"><small></small>D x M<span><i
                                                 class="fi flaticon-dove"></i></span></a>
                                 </div>
                             </div>
@@ -23,12 +23,27 @@
                                 <div id="navbar" class="collapse navbar-collapse navigation-holder">
                                     <button class="menu-close"><i class="ti-close"></i></button>
                                     <ul class="nav navbar-nav mb-2 mb-lg-0">
+                                        <li class="menu-item-has-children">
+                                            <a href="#">Home</a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="#couple">Couple</a>
+                                        </li>
+                                        <li>
+                                            <a href="#story">Story</a>
+                                        </li>
+                                        <li>
+                                            <a href="#RSVP">B&G</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#gallery">Gallery</a>
+                                        </li>
                                         
-                                        {{-- @foreach ($menuItems as $item)
-                                            @if ($item->status == 'Enabled')
-                                            <li class="active"><a href="{{ $item->link}}">{{ $item->name }}</a></li>   
-                                            @endif
-                                        @endforeach --}}
+                                        <li>
+                                            <a href="#event">Events</a>
+                                        </li>
                                        
                                     </ul>
 
