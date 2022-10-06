@@ -43,6 +43,8 @@ class AboutUsController extends Controller
 
         $groomImage = 'images/aboutus/'.$name_ge;
 
+        
+
         // To add data
         AboutUs::insert([
             'brideName' => $request->brideName,
@@ -70,38 +72,62 @@ class AboutUsController extends Controller
         // To add image
 
         $bride_Image = $request->file('brideImage'); 
-        
-
-        $name_gen = hexdec(uniqid()).'.'.$bride_Image->getClientOriginalExtension();
-
-        Image::make($bride_Image)->resize(336, 336)->save('images/aboutus/'.$name_gen);
-
-        $brideImage = 'images/aboutus/'.$name_gen;
 
         // Groom
 
         $groom_Image = $request->file('groomImage'); 
 
-        $name_ge = hexdec(uniqid()).'.'.$groom_Image->getClientOriginalExtension();
+        
 
-        Image::make($groom_Image)->resize(336, 336)->save('images/aboutus/'.$name_ge);
+        if( !empty($bride_Image) && !empty($groom_Image)){
 
-        $groomImage = 'images/aboutus/'.$name_ge;
+            $name_gen = hexdec(uniqid()).'.'.$bride_Image->getClientOriginalExtension();
 
-        // To add data
+            Image::make($bride_Image)->resize(336, 336)->save('images/aboutus/'.$name_gen);
+
+            $brideImage = 'images/aboutus/'.$name_gen;
+
+            $name_ge = hexdec(uniqid()).'.'.$groom_Image->getClientOriginalExtension();
+
+            Image::make($groom_Image)->resize(336, 336)->save('images/aboutus/'.$name_ge);
+
+            $groomImage = 'images/aboutus/'.$name_ge;
+
+            // To add data
+            Aboutus::find($id)->update([
+                'brideName' => $request->brideName,
+                'brideDesc' => $request->brideDesc,
+                'brideImage' => $brideImage,
+                'groomName' => $request->groomName,
+                'groomDesc' => $request->groomDesc,
+                'groomImage' => $groomImage,
+                
+                'created_at' => Carbon::now(),
+                
+            ]);
+
+            return Redirect('admin/design/aboutus/edit/2')->with('success', 'About Us Updated Successfull');
+
+        
+        }else{
+             // To add data
         Aboutus::find($id)->update([
             'brideName' => $request->brideName,
             'brideDesc' => $request->brideDesc,
-            'brideImage' => $brideImage,
+           
             'groomName' => $request->groomName,
             'groomDesc' => $request->groomDesc,
-            'groomImage' => $groomImage,
+          
             
             'created_at' => Carbon::now(),
             
         ]);
 
-        return Redirect()->route('home.aboutus')->with('success', 'About Us Updated Successfull');
+        return Redirect('admin/design/aboutus/edit/2')->with('success', 'About Us Updated Successfull');
+
+        }
+
+        
     
     } 
     

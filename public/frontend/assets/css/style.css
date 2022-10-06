@@ -84,6 +84,10 @@ html {
   font-size: 15px;
 }
 
+#wit-30{
+  width: 30% !important;
+}
+
 .floating {
   animation-name: floating;
   animation-duration: 3s;

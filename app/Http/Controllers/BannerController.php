@@ -80,7 +80,7 @@ class BannerController extends Controller
           ]);
           
   
-          return Redirect()->route('home.banner')->with('success', 'Slider Updated Successfull');
+          return Redirect('admin/design/banner/edit/1')->with('success', 'Slider Updated Successfull');
         } else {
            $banner = Banner::find($id)->update([
             'title_one' => $request->title_one,
@@ -90,7 +90,7 @@ class BannerController extends Controller
         
             'created_at' => Carbon::now(),
            ]);
-          return Redirect()->route('home.banner')->with('success', 'Banner Updated Successfull');
+          return Redirect('admin/design/banner/edit/1')->with('success', 'Banner Updated Successfull');
 
         }   
    }

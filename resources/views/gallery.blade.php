@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="wpOceans">
     <link rel="shortcut icon" type="image/png" href="{{asset('backend\elora.png')}}">
-    <title> E&M - Wedding</title>
+    <title> DxM - Gallery</title>
     <link href="{{asset('frontend/assets/css/themify-icons.css')}}" rel="stylesheet">
     <link href="{{asset('frontend/assets/css/font-awesome.min.css')}}" rel="stylesheet">
     <link href="{{asset('frontend/assets/css/flaticon.css')}}" rel="stylesheet">
@@ -45,7 +45,7 @@
     <!-- end preloader -->
     <!-- Start header -->
     @include('layouts.body.header')
-    @include('layouts.body.gusts')
+    @include('layouts.body.gallery')
     @include('layouts.body.footer')
     <!-- end of header -->
 

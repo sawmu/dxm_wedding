@@ -24,7 +24,7 @@
                                     <button class="menu-close"><i class="ti-close"></i></button>
                                     <ul class="nav navbar-nav mb-2 mb-lg-0">
                                         <li class="menu-item-has-children">
-                                            <a href="#">Home</a>
+                                            <a href="/">Home</a>
                                             
                                         </li>
                                         <li>
