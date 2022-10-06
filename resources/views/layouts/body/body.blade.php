@@ -154,7 +154,7 @@
         <!-- end wpo-team-section -->
 
         <!-- start wpo-portfolio-section -->
-        <section class="wpo-portfolio-section" id="gallery">
+        <section class="wpo-portfolio-section section-padding" id="gallery">
             <div class="container">
                 <div class="row">
                     <div class="wpo-section-title">
@@ -239,7 +239,7 @@
                         </div>
                     </div>
                     <div class="continer">
-                        <div class="mx-auto text-center">
+                        <div class="mx-auto text-center mt-10">
                             <a class="theme-btn" href="/gallery"><span class="text">See More</span> </a>
                         </div>
                     </div>
